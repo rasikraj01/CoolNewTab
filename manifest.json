@@ -2,7 +2,7 @@
   "manifest_version": 2,
 
   "name": "Tag",
-  "description": "Creates Bookmarks",
+  "description": "Chrome Extensions that Creates Bookmarks",
   "version": "1.0",
 
   "browser_action": {
