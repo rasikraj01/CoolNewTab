@@ -11,6 +11,12 @@
   },
   "permissions": [
     "activeTab",
-    "storage"
-  ]
+    "storage",
+    "tabs",
+    "topSites",
+    "bookmarks"
+  ], 
+  "chrome_url_overrides" : {
+    "newtab": "newTab.html"
+  }
 }
