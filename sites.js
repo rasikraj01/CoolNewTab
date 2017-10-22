@@ -4,8 +4,7 @@ console.log('TOP SITESSS');
 // TOP SITES
 chrome.topSites.get(function(MostVisitedURL) 
 	{for (var i = 0; i < MostVisitedURL.length; i++) {
-		console.log(MostVisitedURL[i].title);
-		console.log(MostVisitedURL[i].url);
+		document.getElementById('topsites').innerHTML += `<li> hi : <a href="${MostVisitedURL[i].url}">${MostVisitedURL[i].title}</a></li>`;
 	}
 	});
 
@@ -27,23 +26,17 @@ chrome.topSites.get(function(MostVisitedURL)
 // }
 
 // BOOKMARKS
+
+  chrome.bookmarks.getChildren('1', function(bookmark) {
+ 	for (var i = 0; i < bookmark.length; i++) {
+ 	document.getElementById('bookmarks').innerHTML += `<li> hi : <a href="${bookmark[i].url}">${bookmark[i].title}</a></li>`;
+ 	}
+ });
+  
  chrome.bookmarks.getChildren('2', function(bookmark) {
 
-console.log('BOOKMARKS')
-
  	for (var i = 0; i < bookmark.length; i++) {
- 		console.log(bookmark[i].title);
- 		console.log(bookmark[i].url);
- 	}
- });
-  chrome.bookmarks.getChildren('1', function(bookmark) {
-
-console.log('BOOKMARKS main')
-
- 	for (var i = 0; i < bookmark.length; i++) {
- 		console.log(bookmark[i].title);
- 		console.log(bookmark[i].url);
+ 		 	document.getElementById('bookmarks2').innerHTML += `<li> hi : <a href="${bookmark[i].url}">${bookmark[i].title}</a></li>`;
 
  	}
  });
- 
