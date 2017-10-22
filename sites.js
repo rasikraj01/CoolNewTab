@@ -1,5 +1,5 @@
 
-console.log('TOP SITESSS');
+console.log('working ...');
 
 // TOP SITES
 chrome.topSites.get(function(MostVisitedURL) 
@@ -7,11 +7,6 @@ chrome.topSites.get(function(MostVisitedURL)
 		document.getElementById('topsites').innerHTML += `<li> hi : <a href="${MostVisitedURL[i].url}">${MostVisitedURL[i].title}</a></li>`;
 	}
 	});
-
-// chrome.bookmarks.getTree(function (string){
-// 	console.log(string);
-// 	});
-
 
 // printBookmarks('0');
 
