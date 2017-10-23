@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
 
-  "name": "Tag",
-  "description": "Chrome Extensions that Creates Bookmarks",
+  "name": "Tab",
+  "description": "Chrome Extensions for a custom new Tab",
   "version": "1.0",
 
   "browser_action": {
