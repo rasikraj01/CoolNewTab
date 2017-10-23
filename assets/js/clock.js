@@ -17,9 +17,3 @@ function checkTime(i) {
     return i;
 }
 startTime();
-
-
-var str = "01.&nbsp;&nbsp;&nbsp;Artist Name - Song Title";
-var regex = /(\d+)\.&nbsp;&nbsp;&nbsp;([^-]+) - (.*)/
-var matches = str.match(regex);
-console.log( matches[2] + " : " + matches[3]);
