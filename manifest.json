@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
 
-  "name": "Tab",
+  "name": "CoolNewTab",
   "description": "Chrome Extensions for a custom new Tab",
   "version": "1.0",
 
@@ -13,6 +13,10 @@
     "activeTab",
     "storage",
     "tabs",
+    "http://*/*",
+    "https://*/*",
+    "geolocation",
+    "unlimitedStorage",
     "topSites",
     "bookmarks"
   ], 
