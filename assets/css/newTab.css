@@ -39,7 +39,7 @@
 .clock{
 	background: yellow;
   	grid-column: 2 / 5;
-  	font-size: 70px;
+  	font-size: 75px;
   	width: 100%;
   	grid-row: 2 ;
 }
@@ -50,6 +50,27 @@
 	grid-column: 1;
 	grid-row: 2 / 5;
 	overflow: hidden;
+}
+.otherbookmarks ul li{
+	display: flex;
+	padding: 8px;
+	overflow: hidden;
+	background: white;
+	height: 30px;
+	margin: 1px 0;
+}
+
+.favi{
+	flex: 1;
+	height: 15px;
+	width: 15px;
+}
+
+.title{
+	flex:16;
+	margin-left: 15px;
+	overflow: hidden;
+
 }
 .news{
 	background: pink;
