@@ -4,36 +4,60 @@
 	<link rel="stylesheet" href="assets/css/newTab.css">
 </head>
 	<body>
-<div id="txt"></div>
 
-	Mails <br><br>
-	<a href="https://mail.google.com">rasik966573</a>
-	<br>
-	<a href="https://mail.google.com/mail/u/1/?tab=wm#inbox">rasikraj01</a>
-	<br>
-	<div id="topsites"></div>
-	<p>BOOKMARKS</p>
-	<div id="bookmarks"></div>
+		
+		<div class="container">
+
+		<div class="mainbookmarks">
+			<ul id="bookmarks"></ul>	
+		</div>
+		
+		<div class="otherbookmarks">
+			<ul id="bookmarks2"></ul>	
+		</div>
+
+		<div class="clock">
+		
+		<center>
+			<div id="clock"></div>
+		</center>	
+		
+		</div> 
+
+		<div class="mails">
+			<h3>Mails </h3><br>
+
+			<a href="https://mail.google.com/mail/u/1/?tab=wm#inbox">Secondary Mail</a>
+			<br>
+			<a href="https://mail.google.com">Primary Mail</a>
+			<br>
+		</div>
+
+
+		
+		<div class="topsites" id="topsites"></div>
+		
+
+		<div id="news" class="news"></div>
+
+
+		<div class="todo">
+			<h2>TODO</h2>
+			<div id="todos"></div>
+			<form>
+				<input id="task" placeholder="enter todo">
+				<button id="add" type="submit">Add</button>
+			</form>
+		</div>
+
+
 	
-	<p>BOOKMARKS 2</p>
-	<div id="bookmarks2"></div>
-
-<p id="demo">
-	TODO STUFF
-list</p>
-<div id="todos"></div>
-
-<form>
-<input id="task" placeholder="enter todo">
-<button id="add" type="submit">Add</button>
-</form>
-<div id="news"></div>
-<script src="assets/js/axios.js"></script>
-<script src="assets/js/todo.js"></script>
-
+	</div>
+	
 	</body>
+	<script src="assets/js/axios.js"></script>
+	<script src="assets/js/todo.js"></script>
 	<script src="assets/js/news.js"></script>
     <script src="assets/js/sites.js"></script>
-
     <script src="assets/js/clock.js"></script>
 </html>

@@ -5,7 +5,7 @@ axios.get(url)
   	for (var i = 0; i < res.data.articles.length; i++) {
   	document.getElementById('news').innerHTML += `<li><a href="${res.data.articles[i].url}">${res.data.articles[i].title} : ${res.data.articles[i].author} </a> <br /> ${res.data.articles[i].description}</li>`;
   	}
-    console.log(res.data.articles);
+    //console.log(res.data.articles);
   })
   .catch(function (err) {
     console.log(err);

@@ -24,11 +24,11 @@ function ProtocolHato(url) {
 
 
 chrome.topSites.get(function(MostVisitedURL) 
-	{for (var i = 0; i < MostVisitedURL.length; i++) {
+	{for (var i = 0; i < 9; i++) {
 		var binaProtocol = ProtocolHato(MostVisitedURL[i].url);
 		//var favicon = "chrome://favicon/" +  binaProtocol;
 		var favicon =  "chrome://favicon/" + MostVisitedURL[i].url;
-		document.getElementById('topsites').innerHTML += `<li>hi <img src="${favicon}">  :<a href="${MostVisitedURL[i].url}">${MostVisitedURL[i].title}</a></li>`;
+		document.getElementById('topsites').innerHTML += `<li><img src="${favicon}"><a href="${MostVisitedURL[i].url}">${MostVisitedURL[i].title}</a></li>`;
 	}
 	});
 
@@ -54,16 +54,16 @@ chrome.topSites.get(function(MostVisitedURL)
 		// console.log(bookmark[i].url)
         
         var favicon =  "chrome://favicon/" + bookmark[i].url; 	
-    document.getElementById('bookmarks').innerHTML += `<li> hi : <a href="${bookmark[i].url}"> <img src="${favicon}"> ${bookmark[i].title}</a></li>`;
+    document.getElementById('bookmarks').innerHTML += `<li>  <a href="${bookmark[i].url}"> <img src="${favicon}"> ${bookmark[i].title}</a></li>`;
  	}
  });
   
  chrome.bookmarks.getChildren('2', function(bookmark) {
 
-
-
- 	for (var i = 0; i < bookmark.length; i++) {
-
+    var lt = bookmark.length - 1;
+    
+    for (var i = lt; i > 0; i--) {
+        
 		var binaProtocol = ProtocolHato(bookmark[i].url);
 		//var favicon = "https://www.google.com/s2/favicons?domain=" +  binaProtocol;
         var favicon =  "chrome://favicon/" + bookmark[i].url;    

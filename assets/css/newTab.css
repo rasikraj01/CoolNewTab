@@ -1,5 +1,76 @@
 *{
-	//margin: 0;
+	margin: 0;
 	padding: 0;
 	font-family: 'roboto';
+}
+
+
+.container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-auto-rows: minmax(auto, auto);
+}
+
+
+.mainbookmarks{
+	background: blue;
+	height: 50px;
+	overflow: hidden;
+  	grid-column: 1 / 6;
+  	grid-row: 1;
+}
+.mainbookmarks ul{
+  list-style: none;
+  text-align: center;
+
+}
+.mainbookmarks ul li{
+	display: inline-block;
+}
+.mainbookmarks ul li a{
+	text-decoration: none;
+	padding:0px  5px;
+	line-height: 50px;
+	color: #fff;
+	display: block;
+}
+
+
+.clock{
+	background: yellow;
+  	grid-column: 2 / 5;
+  	font-size: 70px;
+  	width: 100%;
+  	grid-row: 2 ;
+}
+
+.otherbookmarks{
+	background: red;
+	height: calc(100vh - 50px);
+	grid-column: 1;
+	grid-row: 2 / 5;
+	overflow: hidden;
+}
+.news{
+	background: pink;
+	overflow: hidden;
+  	grid-column: 2 / 5;
+  	grid-row: 4;
+}
+.todo{
+	background: grey;
+	grid-column: 5;
+  	grid-row: 4;
+
+}
+.mails{
+	background: #384872;
+	grid-column: 5;
+}
+.topsites{
+	background: #878280;
+	
+  	grid-column: 2 / 5;
+  	grid-row: 3;
+
 }

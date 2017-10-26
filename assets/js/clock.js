@@ -8,7 +8,7 @@ function startTime() {
     s = checkTime(s);
     h = checkTime(h);
     var time = "#" + h +""+ m +""+ s ;
-    document.getElementById('txt').innerHTML =`<p style="color:${time}">${time}</p>`
+    document.getElementById('clock').innerHTML =`<p style="color:${time}">${time}</p>`
     
     var t = setTimeout(startTime, 500);
 }
