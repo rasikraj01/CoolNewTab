@@ -75,18 +75,79 @@
 .news{
 	background: pink;
 	overflow: hidden;
+	height: 60%;
+	overflow: hidden;
   	grid-column: 2 / 5;
   	grid-row: 4;
 }
+
+#news{
+	width: 70%;
+	list-style: none;
+
+	margin: auto;
+
+    margin-top: 50px;
+}
+#news li{
+	color: #000;
+	background: antiquewhite;
+    margin: 5px;
+}
+#news a {
+	text-decoration:none;
+}
+#news span {
+    font-size: 15px;
+}
+ #news .desp{
+	margin-top: 5px;
+	color:#424949;
+ }
 .todo{
 	background: grey;
 	grid-column: 5;
+	height: 60%;
   	grid-row: 4;
-
+	
+}
+.todo h2{
+	margin-bottom: 20px;
+}
+#todos ul{
+	list-style-type: none;
+}
+#todos ul li{
+	font-size: 13px;
+	padding: 2px 0px;
+}
+.todo .wrapper{
+	background: #e5e5e5;
+	width: 80%;
+	margin:auto;
+	margin-top: 80%;
+	text-align: center; 
 }
 .mails{
-	background: #384872;
+	background: #e3e3e3;
 	grid-column: 5;
+}
+.mails .wrapper{
+    margin-top: 30px;
+    margin-right: 20px;
+	width: 90%;
+	text-align: right; 
+}
+.mails h2{
+	text-align: 
+}
+.mails i{
+	margin-right: 5px;
+}
+.mails a{
+	font-size: 13px;
+	text-decoration: none;
+	padding: 10px 0;
 }
 .topsites{
 	background: #878280;

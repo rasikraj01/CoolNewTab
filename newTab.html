@@ -1,6 +1,7 @@
 <html>
 <head>
 	<title>Untils</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
 	<link rel="stylesheet" href="assets/css/newTab.css">
 </head>
 	<body>
@@ -25,29 +26,39 @@
 		</div> 
 
 		<div class="mails">
-			<h3>Mails </h3><br>
+			<div class="wrapper">
 
-			<a href="https://mail.google.com/mail/u/1/?tab=wm#inbox">Secondary Mail</a>
+			<a href="https://mail.google.com"><i class="fa fa-envelope" aria-hidden="true"></i>Primary Mail</a>
 			<br>
-			<a href="https://mail.google.com">Primary Mail</a>
+			<a href="https://mail.google.com/mail/u/1/?tab=wm#inbox"><i class="fa fa-envelope" aria-hidden="true"></i>Secondary Mail</a>
 			<br>
+			</div>
 		</div>
 
 
 		
-		<div class="topsites" id="topsites"></div>
+		<div class="topsites" >
+			<div id="topsites">
+				
+			</div>
+		</div>
 		
 
-		<div id="news" class="news"></div>
+		<div class="news">
+			<ul id="news"></ul>
+		</div>
 
 
 		<div class="todo">
-			<h2>TODO</h2>
-			<div id="todos"></div>
-			<form>
-				<input id="task" placeholder="enter todo">
-				<button id="add" type="submit">Add</button>
-			</form>
+			<div class="wrapper">
+				<h2>TODO</h2>
+				<div id="todos"></div>
+				<form>
+					<input id="task" placeholder="enter todo">
+					<button id="add" type="submit">Add</button>
+				</form>	
+			</div>
+			
 		</div>
 
 

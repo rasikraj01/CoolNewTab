@@ -3,7 +3,10 @@ var url = ' https://newsapi.org/v1/articles?source=the-next-web&sortBy=latest&ap
 axios.get(url)
   .then(function (res) {
   	for (var i = 0; i < res.data.articles.length; i++) {
-  	document.getElementById('news').innerHTML += `<li><a href="${res.data.articles[i].url}">${res.data.articles[i].title} : ${res.data.articles[i].author} </a> <br /> ${res.data.articles[i].description}</li>`;
+  	document.getElementById('news').innerHTML += `
+  		<a href="${res.data.articles[i].url}">
+  			<li><span>${res.data.articles[i].title} </span>
+  		<div class="desp">${res.data.articles[i].description}</div></li></a>`;
   	}
     //console.log(res.data.articles);
   })
