@@ -41,7 +41,7 @@ function show() {
  
     var html = '<ul>';
     for(var i=0; i<todos.length; i++) {
-        html += `<li><a>${todos[i]}</a><button class="remove" id="${i}">x</button></li>`;
+        html += `<li><a>${todos[i]}</a><button class="remove" id="${i}"><i class="fa fa-trash-o" aria-hidden="true"></i></button></li>`;
     };
     html += '</ul>';
  
