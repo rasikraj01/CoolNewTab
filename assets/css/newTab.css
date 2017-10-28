@@ -150,18 +150,21 @@ a{
 	position: relative;
 }
 .todo .wrapper input {
-  width: 100%;
-  padding: 0 5px;
-  border: none;
-  border-bottom: 2px;
-  border-bottom-color: red;
-  font-size: 20px;
-  font-weight: bold;
-  outline: 0;
-  box-shadow:none;
+	width: 100%;
+	padding: 20px 5px;
+	border: none;
+	height: 30px;
+	border-bottom: 2px;
+	border-bottom-color: red;
+	font-size: 20px;
+	outline: 0;
+	box-shadow:none;
 }
-.wrong{
-	-webkit-animation:shake .4s;
+input[type="text"]:invalid{
+	color: red;
+}
+.todo .wrong{
+	-webkit-animation:shake .2s;
 }
 @-webkit-keyframes shake{
 	0%{
@@ -171,21 +174,21 @@ a{
 		background: white;
 	}
 }
-/*.todo .wrapper input:focus + label{
+.todo .wrapper input:focus + label{
 	color: #e3e3e3;
 	font-size: 10px;
-	display: none;
+	top: 0px;
+	left: 0px;
 }
 .todo label{
-  position: absolute;
-  pointer-events: none;
-  top: 0;
-  left: 0;
-  font-size: 20px;
-  font-weight: bold;
-  padding: 0 5px;
-  transition: .2s ease-in-out;
-}*/
+	position: absolute;
+	pointer-events: none;
+	top: 5px;
+	left: 3px;
+	font-size: 20px;
+	padding: 0 5px;
+	transition: .2s ease-in-out;
+}
 .mails{
 	background: #e3e3e3;
 	grid-column: 5;

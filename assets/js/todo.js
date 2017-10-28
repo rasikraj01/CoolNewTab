@@ -10,6 +10,7 @@ function get_todos() {
 function add(event) {
     event.preventDefault();
     var task = document.getElementById('task').value;
+    document.getElementById('task').classList.remove('wrong');
     if (task !== "") {
         document.getElementById('task').classList.remove('wrong');
         var todos = get_todos();
