@@ -10,13 +10,17 @@ function get_todos() {
 function add(event) {
     event.preventDefault();
     var task = document.getElementById('task').value;
-    
-    var todos = get_todos();
-    todos.push(task);
-    localStorage.setItem('todo', JSON.stringify(todos));
-    document.getElementById('task').value =  "";
-    show();
- 
+    if (task !== "") {
+        document.getElementById('task').classList.remove('wrong');
+        var todos = get_todos();
+        todos.push(task);
+        localStorage.setItem('todo', JSON.stringify(todos));
+        document.getElementById('task').value =  "";
+        show();
+    }
+    else{
+        document.getElementById('task').classList.add('wrong');
+    }
     return false;
 }
  
@@ -36,7 +40,7 @@ function show() {
  
     var html = '<ul>';
     for(var i=0; i<todos.length; i++) {
-        html += '<li>' + todos[i] + '<button class="remove" id="' + i  + '">x</button></li>';
+        html += `<li><a>${todos[i]}</a><button class="remove" id="${i}">x</button></li>`;
     };
     html += '</ul>';
  

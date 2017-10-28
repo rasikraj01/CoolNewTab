@@ -27,8 +27,9 @@ chrome.topSites.get(function(MostVisitedURL)
 	{for (var i = 0; i < 9; i++) {
 		var binaProtocol = ProtocolHato(MostVisitedURL[i].url);
 		//var favicon = "chrome://favicon/" +  binaProtocol;
+        //console.log((MostVisitedURL[i].title));
 		var favicon =  "chrome://favicon/" + MostVisitedURL[i].url;
-		document.getElementById('topsites').innerHTML += `<li><img src="${favicon}"><a href="${MostVisitedURL[i].url}">${MostVisitedURL[i].title}</a></li>`;
+		document.getElementById('topsites').innerHTML += `<a href="${MostVisitedURL[i].url}"><li><img src="${favicon}"><span>${MostVisitedURL[i].title}</span></li></a>`;
 	}
 	});
 
