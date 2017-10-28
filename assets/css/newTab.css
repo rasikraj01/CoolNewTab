@@ -7,10 +7,9 @@
 
 body{
 	overflow:hidden;
-
-  background-color:#222; 
+	background-color:#222; 
 	color: #fff;
-	//background: linear-gradient(to top, #0f0c29, #302b63, #24243e); 
+//background: linear-gradient(to top, #0f0c29, #302b63, #24243e); 
 	-webkit-font-smoothing: antialiased;
 }
 a{
@@ -23,6 +22,8 @@ a{
   grid-auto-rows: minmax(auto, auto);
 }
 
+
+/************MAIN BOOKMARKS**************/
 
 .mainbookmarks{
 	//background: blue;
@@ -44,15 +45,18 @@ a{
 	padding:0px  5px;
 	line-height: 50px;
 	display: block;
-	-webkit-transition:all .5s;
+	-webkit-transition:all .2s;
 }
 .mainbookmarks ul li a:hover{
-	background: rgba(0,0,0,.1);
+	background: rgba(206, 206, 206, 0.2);
 	transform: scale(1.1);
 }
 .mainbookmarks img{
 	margin:0px 3px;
 }
+
+
+/************CLOCK**************/
 
 .clock{
 	grid-column: 2 / 5;
@@ -60,6 +64,8 @@ a{
   	width: 100%;
   	grid-row: 2 ;
 }
+
+/************OTHER BOOKMARKS**************/
 
 .otherbookmarks{
 	//background: red;
@@ -109,12 +115,15 @@ a{
 .otherbookmarks li:hover{
 	background: rgba(206, 206, 206, 0.28);
 }
+
+
+/************NEWS**************/
+
 .news{
 	height: 60%;
   	grid-column: 2 / 5;
   	grid-row: 4;
 }
-
 #news{
 	width: 80%;
 	list-style: none;
@@ -141,6 +150,9 @@ a{
 	//color:#424949;
 	color: #e3e3e3;
  }
+
+
+/************TODO**************/
 .todo{
 	//background: grey;
 	grid-column: 5;
@@ -246,32 +258,13 @@ input[type="text"]:focus{
 	cursor: pointer;
 }
 
-.mails{
-	//background: #e3e3e3;
-	grid-column: 5;
-}
-.mails .wrapper{
-    margin-top: 30px;
-    margin-right: 20px;
-	width: 90%;
-	text-align: right; 
-}
-.mails h2{
-	text-align: 
-}
-.mails i{
-	margin-right: 5px;
-}
-.mails a{
-	font-size: 13px;
-	text-decoration: none;
-	padding: 10px 0;
-}
+
+
+/************TOP SITES**************/
 
 .topsites{
 	grid-column: 2 / 5;
   	grid-row: 3;
-
 }
 #topsites{
 	width: 80%;
@@ -314,4 +307,28 @@ input[type="text"]:focus{
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+}
+
+/************MAILS**************/
+
+.mails{
+	//background: #e3e3e3;
+	grid-column: 5;
+}
+.mails .wrapper{
+    margin-top: 30px;
+    margin-right: 20px;
+	width: 90%;
+	text-align: right; 
+}
+.mails h2{
+	text-align: 
+}
+.mails i{
+	margin-right: 5px;
+}
+.mails a{
+	font-size: 13px;
+	text-decoration: none;
+	padding: 10px 0;
 }
