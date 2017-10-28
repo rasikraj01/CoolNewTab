@@ -55,7 +55,7 @@ chrome.topSites.get(function(MostVisitedURL)
 		// console.log(bookmark[i].url)
         
         var favicon =  "chrome://favicon/" + bookmark[i].url; 	
-    document.getElementById('bookmarks').innerHTML += `<li>  <a href="${bookmark[i].url}"> <img src="${favicon}"> ${bookmark[i].title}</a></li>`;
+    document.getElementById('bookmarks').innerHTML += `<li>  <a href="${bookmark[i].url}"> <img src="${favicon}">${bookmark[i].title}</a></li>`;
  	}
  });
   

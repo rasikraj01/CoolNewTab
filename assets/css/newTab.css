@@ -7,11 +7,15 @@
 
 body{
 	overflow:hidden;
-	//-webkit-font-smoothing: antialiased;
+
+  background-color:#222; 
+	color: #fff;
+	//background: linear-gradient(to top, #0f0c29, #302b63, #24243e); 
+	-webkit-font-smoothing: antialiased;
 }
 a{
 	text-decoration: none;
-	color: black;
+	color: #fff;
 }
 .container{
   display: grid;
@@ -21,7 +25,7 @@ a{
 
 
 .mainbookmarks{
-	background: blue;
+	//background: blue;
 	height: 50px;
 	overflow: hidden;
   	grid-column: 1 / 6;
@@ -30,7 +34,7 @@ a{
 .mainbookmarks ul{
  	list-style: none;
  	text-align: center;
-
+	overflow-x: scroll;
 }
 .mainbookmarks ul li{
 	display: inline-block;
@@ -39,38 +43,52 @@ a{
 	text-decoration: none;
 	padding:0px  5px;
 	line-height: 50px;
-	color: #fff;
 	display: block;
+	-webkit-transition:all .5s;
+}
+.mainbookmarks ul li a:hover{
+	background: rgba(0,0,0,.1);
+	transform: scale(1.1);
+}
+.mainbookmarks img{
+	margin:0px 3px;
 }
 
-
 .clock{
-	background: yellow;
-  	grid-column: 2 / 5;
+	grid-column: 2 / 5;
   	font-size: 75px;
   	width: 100%;
   	grid-row: 2 ;
 }
 
 .otherbookmarks{
-	background: red;
+	//background: red;
 	height: calc(100vh - 50px);
 	grid-column: 1;
 	grid-row: 2 / 5;
 }
 .otherbookmarks ul{
 	overflow-y: scroll;
+
+	border-top: 1px solid #fff; 
 	height: 100%;
 }
 .otherbookmarks ul li{
 	display: flex;
 	padding: 8px;
 	overflow: hidden;
-	background: white;
-	height: 30px;
-	margin: 1px 0;
-}
+	//background: white;
+	height: 25px;
+	margin: 1px 0;    
 
+	-webkit-transition:all .3s;
+}
+.otherbookmarks h2{
+	font-size: 20px;
+	font-weight: 100;
+	text-align: center;
+	margin: 20px 0 10px 0;
+}
 .favi{
 	flex: 1;
 	height: 15px;
@@ -81,10 +99,17 @@ a{
 	flex:16;
 	margin-left: 15px;
 	overflow: hidden;
+	width:100px;
+	white-space: nowrap;
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
 
+.otherbookmarks li:hover{
+	background: rgba(0,0,0,.1);
 }
 .news{
-	background: pink;
 	height: 60%;
   	grid-column: 2 / 5;
   	grid-row: 4;
@@ -99,9 +124,11 @@ a{
     margin-top: 50px;
 }
 #news li{
-	color: #000;
-	background: antiquewhite;
+	//color: #000;
+    background: rgba(206, 206, 206, 0.36);
     margin: 5px;
+    border-radius: 2px;
+    padding: 8px;
 }
 #news a {
 	text-decoration:none;
@@ -111,10 +138,12 @@ a{
 }
  #news .desp{
 	margin-top: 5px;
+
 	color:#424949;
+	color: #e3e3e3;
  }
 .todo{
-	background: grey;
+	//background: grey;
 	grid-column: 5;
 	height: 60%;
   	grid-row: 4;
@@ -139,7 +168,7 @@ a{
 	display: none;
 }
 .todo .wrapper{
-	background: #e5e5e5;
+	//background: #e5e5e5;
 	width: 80%;
 	margin:auto;
 	//margin-top: 80%;
@@ -190,7 +219,7 @@ input[type="text"]:invalid{
 	transition: .2s ease-in-out;
 }
 .mails{
-	background: #e3e3e3;
+	//background: #e3e3e3;
 	grid-column: 5;
 }
 .mails .wrapper{
@@ -212,8 +241,7 @@ input[type="text"]:invalid{
 }
 
 .topsites{
-	background: #878280;
-  	grid-column: 2 / 5;
+	grid-column: 2 / 5;
   	grid-row: 3;
 
 }
@@ -228,10 +256,11 @@ input[type="text"]:invalid{
 }
 #topsites a{
 	margin:5px; 
-	background: white;
 	overflow-y: hidden;
 	height: 30px;
 	position: relative;
+	background: rgba(206, 206, 206, 0.36);
+	-webkit-transition:all .5s;
 }
 #topsites li{
 	width: 400px;
@@ -244,7 +273,12 @@ input[type="text"]:invalid{
     width: 20px;
     float: left;
 }
-#topsites span {margin-left: 5px;
+.topsities li:hover + a{
+	-webkit-transform:scale(1.1);
+	background: #e3e3e3;
+}
+#topsites span {
+	margin-left: 5px;
     margin-top: 4px;
     font-size: 12px;
     line-height: 20px;
