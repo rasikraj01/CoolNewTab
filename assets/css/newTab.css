@@ -169,6 +169,7 @@ a{
 	list-style-type: none;
 }
 #todos ul li{
+	cursor: pointer;
 	margin-bottom:7px;
 	line-height: 20px;
 	font-size: 15px;
@@ -195,24 +196,34 @@ a{
 	border: none;
 	background: transparent;
 	height: 30px;
-	border-bottom: 2px;
-	border-bottom-color: red;
-	font-size: 20px;
+	border-bottom:2px solid  #26d081; //#3dd28d 
+	
 	outline: 0;
 	box-shadow:none;
+	transition: all .2s;
 }
 input[type="text"]:invalid{
 	//color: red;
+}
+
+input[type="text"]:focus{
+	font-size: 23px;
+	border:none;
+	box-shadow: none;
+	outline: none;
+	color:#fff;
+	border-bottom:2px solid #3dd28d; 
+	
 }
 .todo .wrong{
 	-webkit-animation:shake .2s;
 }
 @-webkit-keyframes shake{
 	0%{
-		background: red;
+		background: #F32C52;
 	}
 	100%{
-		background: white;
+		background: transparent;
 	}
 }
 .todo .wrapper input:focus + label{
@@ -225,7 +236,7 @@ input[type="text"]:invalid{
 	position: absolute;
 	pointer-events: none;
 	top: 5px;
-	color: #c3b7b7;
+	color: #9a9a9a;
 	left: 3px;
 	font-size: 20px;
 	padding: 0 5px;
