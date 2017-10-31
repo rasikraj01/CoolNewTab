@@ -9,7 +9,7 @@ function startTime() {
     s = checkTime(s);
     h = checkTime(h);
     var time = "#" + h +""+ m +""+ s ;
-    var disptime = `${h_dis}:${m}`;
+    var disptime = `${h_dis}:${m}:${s}`;
     document.getElementById('clock').innerHTML =`<p style="color:#ffffff">${disptime}</p>`
     
     var t = setTimeout(startTime, 500);

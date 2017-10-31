@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Share+Tech+Mono');
+
 *{
 	margin: 0;
 	padding: 0;
@@ -67,7 +69,13 @@ button{
   	width: 100%;
   	grid-row: 2 ;
 }
-
+#clock p{
+	color: #ffffff;
+    text-align: center;
+	font-family: 'Share Tech Mono', monospace;
+	text-shadow: 0 0 15px rgba(10, 175, 230, 1),  0 0 15px rgba(10, 175, 230, 0);
+    margin-top: 50px;
+}
 /************OTHER BOOKMARKS**************/
 
 .otherbookmarks{
