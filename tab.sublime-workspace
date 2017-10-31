@@ -1,0 +1,663 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"trans",
+				"transition"
+			],
+			[
+				"border",
+				"border-bottom"
+			],
+			[
+				"wdi",
+				"width"
+			],
+			[
+				"texa",
+				"text-align"
+			],
+			[
+				"pa",
+				"padding-right"
+			],
+			[
+				"margin-",
+				"margin-right"
+			],
+			[
+				"rg",
+				"rgba()"
+			],
+			[
+				"over",
+				"overflow-x"
+			],
+			[
+				"mra",
+				"margin-bottom"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"form",
+				"formnovalidate\tAttr"
+			],
+			[
+				"t",
+				"type\tAttr"
+			],
+			[
+				"tra",
+				"translateX()"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"n",
+				"transparent"
+			],
+			[
+				"b",
+				"background"
+			],
+			[
+				"border-c",
+				"border-bottom-color"
+			],
+			[
+				"bottom",
+				"border-bottom"
+			],
+			[
+				"ma",
+				"margin-right"
+			],
+			[
+				"ove",
+				"overflow-y"
+			],
+			[
+				"girdt",
+				"grid-template-columns"
+			],
+			[
+				"grids",
+				"grid-auto-rows"
+			],
+			[
+				"i",
+				"ime-mode"
+			],
+			[
+				"tea",
+				"text-align"
+			],
+			[
+				"mrai",
+				"margin"
+			],
+			[
+				"mragi",
+				"margin-top"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"list",
+				"list-n\tlist-style-type: none;"
+			],
+			[
+				"mae",
+				"margin-left"
+			],
+			[
+				"fle",
+				"flex-basis"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"co",
+				"console"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"fons",
+				"font-size"
+			],
+			[
+				"a",
+				"auto"
+			],
+			[
+				"grid",
+				"grid-area"
+			],
+			[
+				"gr",
+				"grid-column"
+			],
+			[
+				"h",
+				"h\theight"
+			],
+			[
+				"gri",
+				"grid-column"
+			],
+			[
+				"g",
+				"grid-column"
+			],
+			[
+				"M",
+				"MostVisitedURL"
+			],
+			[
+				"for",
+				"for\tfor (…) {…}"
+			],
+			[
+				"fa",
+				"favicon"
+			],
+			[
+				"log",
+				"logTopSites"
+			],
+			[
+				"lo",
+				"logTopSites"
+			],
+			[
+				"en",
+				"env"
+			],
+			[
+				"env",
+				"envConfig"
+			],
+			[
+				"pro",
+				"process"
+			],
+			[
+				"req",
+				"req"
+			],
+			[
+				"res",
+				"resolve"
+			],
+			[
+				"P",
+				"Promise\tES6 Promise"
+			],
+			[
+				"bry",
+				"brcypt"
+			],
+			[
+				"to",
+				"tokens"
+			],
+			[
+				"f",
+				"function"
+			],
+			[
+				"Us",
+				"UserSchema"
+			],
+			[
+				"valid",
+				"validator"
+			],
+			[
+				"body",
+				"bodyParser"
+			],
+			[
+				"tr",
+				"true"
+			],
+			[
+				"com",
+				"completedAt"
+			],
+			[
+				"c",
+				"completed"
+			],
+			[
+				"dri",
+				"driverId"
+			],
+			[
+				"er",
+				"error"
+			],
+			[
+				"bod",
+				"bodyParser"
+			],
+			[
+				"Driv",
+				"DriverSchema"
+			],
+			[
+				"re",
+				"return"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "newTab.html",
+			"settings":
+			{
+				"buffer_size": 1496,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/css/newTab.css",
+			"settings":
+			{
+				"buffer_size": 5100,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 165.0,
+		"last_filter": "Package Control: lis",
+		"selected_items":
+		[
+			[
+				"Package Control: lis",
+				"Package Control: List Packages"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Disable Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: arr"
+			]
+		],
+		"width": 405.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/rasikraj/Desktop/CoolNewTab",
+		"/Users/rasikraj/Desktop/CoolNewTab/assets",
+		"/Users/rasikraj/Desktop/CoolNewTab/assets/js"
+	],
+	"file_history":
+	[
+		"/Users/rasikraj/Desktop/CoolNewTab/assets/js/todo.js",
+		"/Users/rasikraj/Desktop/humko_tumse_pyaar_hai.txt",
+		"/Users/rasikraj/Desktop/CoolNewTab/assets/js/clock.js",
+		"/Users/rasikraj/Desktop/CoolNewTab/assets/js/sites.js",
+		"/Users/rasikraj/Desktop/CoolNewTab/assets/js/news.js",
+		"/Users/rasikraj/Desktop/emoji.css",
+		"/Users/rasikraj/Desktop/CoolNewTab/manifest.json",
+		"/Users/rasikraj/Desktop/CoolNewTab/css/newTab.css",
+		"/Users/rasikraj/Desktop/CoolNewTab/newTab.html",
+		"/Users/rasikraj/Desktop/CoolNewTab/README.md",
+		"/Users/rasikraj/Desktop/CoolNewTab/assets/js/axios.js",
+		"/Users/rasikraj/Desktop/extension/manifest.json",
+		"/Users/rasikraj/Desktop/extension/sites.js",
+		"/Users/rasikraj/Desktop/extension/clock.js",
+		"/Users/rasikraj/Desktop/programming/linear_search/c/linear_search.c",
+		"/Users/rasikraj/Desktop/DL/Recurrent_Neural_Networks/HINDALCO.NS_test.csv",
+		"/Users/rasikraj/Desktop/DL/Recurrent_Neural_Networks/HINDALCO.NS.csv",
+		"/Users/rasikraj/Desktop/Machine Learning /Part 1 - Data Preprocessing/Section 2 -------------------- Part 1 - Data Preprocessing --------------------/missing_data.py",
+		"/Users/rasikraj/Desktop/DeepLearningModels/CNN/catsordogs.py",
+		"/Users/rasikraj/Desktop/extension/popup.html",
+		"/Users/rasikraj/Desktop/MLB/src/Pitching.json",
+		"/Users/rasikraj/Desktop/MLB/src/Batting.json",
+		"/Users/rasikraj/Desktop/MLB/public/index.html",
+		"/Users/rasikraj/Desktop/qcnitw/TheOriginalClub.html",
+		"/Users/rasikraj/Desktop/qcnitw/index.html",
+		"/Users/rasikraj/Desktop/qcnitw/.gitignore",
+		"/Users/rasikraj/Desktop/qcnitw/footer.html",
+		"/Users/rasikraj/Desktop/json-coder/css/index.css",
+		"/Users/rasikraj/Desktop/json-coder/index.html",
+		"/Users/rasikraj/Desktop/json-coder/css/about.css",
+		"/Users/rasikraj/Desktop/json-coder/js/jsoncoder.js",
+		"/Users/rasikraj/Desktop/ml.py",
+		"/Users/rasikraj/Desktop/myApp/server/server.js",
+		"/Users/rasikraj/Desktop/react/vogue/server/routes/index.js",
+		"/Users/rasikraj/Desktop/next.js/package.json",
+		"/Users/rasikraj/Desktop/vogue/server/views/index.jsx",
+		"/Users/rasikraj/Desktop/vogue/package.json",
+		"/Users/rasikraj/Desktop/Projects/react2/app/components/WeatherForm.jsx",
+		"/Users/rasikraj/Desktop/Projects/react/public/components/GreeterForm.jsx",
+		"/Users/rasikraj/Desktop/myrows.js",
+		"/Users/rasikraj/Desktop/rows (1).json",
+		"/Users/rasikraj/Desktop/ReactCasts/episode12/package.json",
+		"/Users/rasikraj/Desktop/2/package.json",
+		"/Users/rasikraj/Desktop/hi/examples/simple/app.js",
+		"/Users/rasikraj/Desktop/hi/examples/simple/routes/user.js",
+		"/Users/rasikraj/Desktop/hi/examples/simple/routes/index.js",
+		"/Users/rasikraj/Desktop/hi/examples/simple/views/index.jsx",
+		"/Users/rasikraj/Desktop/hi/examples/simple/package.json",
+		"/Users/rasikraj/Desktop/hi/examples/dynamic/package.json",
+		"/Users/rasikraj/Desktop/hi/package.json",
+		"/Users/rasikraj/Downloads/workspace 2/files/Main.js",
+		"/Users/rasikraj/Downloads/Keep contact/func.js",
+		"/Users/rasikraj/Downloads/workspace/pong.html",
+		"/Users/rasikraj/Downloads/level1 (1).css",
+		"/Users/rasikraj/Downloads/level1.css",
+		"/Users/rasikraj/Desktop/react/youtube/package.json",
+		"/Users/rasikraj/Downloads/Untitled.html",
+		"/Users/rasikraj/Desktop/Projects/node/node3/package.json",
+		"/Users/rasikraj/Desktop/Projects/mongo/muber/controllers/drivers.controllers.js",
+		"/Users/rasikraj/Desktop/Projects/node/node3/server/server.js",
+		"/Users/rasikraj/Desktop/Projects/mongo/muber/app.js",
+		"/Users/rasikraj/Desktop/Projects/node/node3/server/config/config.json",
+		"/Users/rasikraj/Desktop/Projects/node/node3/server/db/mongoose.js",
+		"/Users/rasikraj/Desktop/Projects/node/package.json",
+		"/Users/rasikraj/Desktop/one-dark-syntax/package.json",
+		"/Users/rasikraj/Desktop/theme/one-dark-syntax/package.json",
+		"/Users/rasikraj/Desktop/Projects/Todo/app/actions/actions.jsx",
+		"/Users/rasikraj/Desktop/Projects/Todo/server.js",
+		"/Users/rasikraj/Desktop/Projects/Todo/app/app.jsx",
+		"/Users/rasikraj/Desktop/Projects/CustomReactBoilerplate/server.js",
+		"/Users/rasikraj/Desktop/Projects/CustomReactBoilerplate/webpack.config.js",
+		"/Users/rasikraj/Desktop/Projects/react2/app/app.jsx",
+		"/Users/rasikraj/Desktop/Projects/react2/server.js",
+		"/Users/rasikraj/Desktop/Projects/react2/app/components/Nav.jsx",
+		"/Users/rasikraj/Desktop/Projects/react2/app/components/About.jsx",
+		"/Users/rasikraj/Downloads/level0.php",
+		"/Users/rasikraj/Desktop/untitled.html",
+		"/Users/rasikraj/Documents/Projects/Color Palette/index.html",
+		"/Users/rasikraj/Desktop/node/node3/server/models/user.js",
+		"/Users/rasikraj/Desktop/node/node3/server/config/config.json",
+		"/Users/rasikraj/Desktop/node/node3/.gitignore",
+		"/Users/rasikraj/Desktop/node/node3/package.json",
+		"/Users/rasikraj/Desktop/node/node3/server/config/config.js",
+		"/Users/rasikraj/Desktop/node/node3/server/server.js",
+		"/Users/rasikraj/Desktop/node/node3/server/models/todo.js",
+		"/Users/rasikraj/Desktop/node/node3/server/middleware/authenticate.js",
+		"/Users/rasikraj/Desktop/node/node3/server/tests/server.test.js",
+		"/Users/rasikraj/Desktop/node/node3/server/db/mongoose.js",
+		"/Users/rasikraj/Documents/Tutorials/Node.js/The Complete Node.js Developer Course 2.0/8. Security and Authentication/n-8-5-private-route/server/server.js",
+		"/Users/rasikraj/Documents/Tutorials/Node.js/The Complete Node.js Developer Course 2.0/8. Security and Authentication/n-8-4-generating-auth-tokens/server/server.js",
+		"/Users/rasikraj/Documents/Tutorials/Node.js/The Complete Node.js Developer Course 2.0/8. Security and Authentication/n-8-4-generating-auth-tokens/server/models/user.js",
+		"/Users/rasikraj/Desktop/node/node2/package.json",
+		"/Users/rasikraj/Desktop/node/server.js",
+		"/Users/rasikraj/Desktop/node/.gitignore",
+		"/Users/rasikraj/Desktop/node/hello.js",
+		"/Users/rasikraj/Desktop/csharp/hello/Program.cs",
+		"/Users/rasikraj/Downloads/Matrix final trial 2/css/index.css",
+		"/Users/rasikraj/Desktop/mongo/muber/models/driver.js",
+		"/Users/rasikraj/Desktop/mongo/muber/controllers/drivers.controllers.js",
+		"/Users/rasikraj/Desktop/mongo/muber/test/controllers/test.controller.drivers.js",
+		"/Users/rasikraj/Desktop/mongo/muber/routes/routes.js",
+		"/Users/rasikraj/Desktop/mongo/muber/app.js",
+		"/Users/rasikraj/Desktop/mongo/muber/test/test_helper.js",
+		"/Users/rasikraj/Desktop/mongo/muber/test/test.app.js",
+		"/Users/rasikraj/Desktop/mongo/muber/package.json",
+		"/Users/rasikraj/Desktop/mongo/muber/index.js",
+		"/Users/rasikraj/Desktop/mongo/muber/.gitignore",
+		"/Users/rasikraj/Desktop/mongo/UpStarMusic/database/queries/SetNotRetired.js",
+		"/Users/rasikraj/Desktop/mongo/UpStarMusic/src/seeds.js",
+		"/Users/rasikraj/Desktop/mongo/UpStarMusic/database/queries/SetRetired.js",
+		"/Users/rasikraj/Desktop/mongo/UpStarMusic/database/queries/SearchArtists.js"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 158.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"');\n",
+			";\n",
+			"a href=\"${res.data.articles[i].url}\">",
+			"getElementById",
+			"js"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "newTab.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1496,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								596,
+								596
+							],
+							[
+								794,
+								794
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 1,
+					"file": "assets/css/newTab.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5100,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4967,
+								4967
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Djaneiro/Syntaxes/CSS (Django).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 4959.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 65.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.4597736822,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "tab.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 1,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 131.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
