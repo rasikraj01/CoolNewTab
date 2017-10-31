@@ -9,7 +9,7 @@ function get_mails() {
     return mail;
 }
 
-function add(e) {
+function mails_add(e) {
 	e.preventDefault();
 	var url = document.getElementById('url').value;
 	var name = document.getElementById('name').value;
@@ -21,46 +21,60 @@ function add(e) {
         localStorage.setItem('mailz', JSON.stringify(mails));
         document.getElementById('url').value =  "";
         document.getElementById('name').value =  "";
-        show();
+        mails_show();
 	}
 	return false;
 	
 }
 
-function remove() {
+function mails_remove() {
 	var id = this.getAttribute('id');
 	var mails = get_mails();
 
 	mails.splice(id, 1);
 	localStorage.setItem('mailz', JSON.stringify(mails));
 
-	show();
+	mails_show();
 
 	return  false;
 }
 
-function show() {
+function mails_show() {
 	var mails = get_mails();
 	var ul;
 	ul = `<ul id="mail_list">`
 	for (var i = 1; i < mails.length; i++) {
-		ul += `<li><a href="${mails[i][0]}">${mails[i][1]}</a><button class="mails_rm" id="${i}">X</button>`
+		ul += `<li><a href="${mails[i][0]}">${mails[i][1]}</a><button class="mails_rm" id="${i}"><i class="fa fa-trash-o" aria-hidden="true"></i></button></li>`
 	}
 	ul += `</ul>`
 	document.getElementById('mail').innerHTML = ul;
 
 	var buttons = document.getElementsByClassName('mails_rm');
 	for (var i = 1; i < buttons.length; i++) {
-		buttons[i].addEventListener('click', remove);
+		buttons[i].addEventListener('click', mails_remove);
 	};
 }
 
-document.getElementById('add_mail').addEventListener('click',add);
+document.getElementById('add_mail').addEventListener('click',mails_add);
 
-show();
+mails_show();
 
+document.getElementById('add_mail_form').style.display = "none";
+//document.getElementsByClassName('mails_rm').style.display = "none";
 
+function show_add_button() {
+	var settings = document.getElementById('add_mail_form').style.display ;
+	if (settings === "none") {
+		document.getElementById('add_mail_form').style.display = 'block';	
+	}
+	else if(settings === "block"){
+		document.getElementById('add_mail_form').style.display = 'none';
+	}
+	
+	//document.getElementsByClassName('mails_rm').className += 'disspp';
+}
 
+document.getElementById('mail_settings').addEventListener('click',show_add_button);
 
 
 

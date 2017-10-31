@@ -178,6 +178,9 @@ a{
 	background: #ff0031;
 }
 #todos ul{
+	max-height: 250px;
+	overflow-y: scroll;
+
 	list-style-type: none;
 }
 #todos ul li{
@@ -331,4 +334,33 @@ input[type="text"]:focus{
 	font-size: 13px;
 	text-decoration: none;
 	padding: 10px 0;
+}
+#mail_settings:hover{
+	cursor: pointer;
+}
+
+.mails ul li .mails_rm{
+	float:right;
+	padding: 4px;
+	cursor: pointer;
+	font-size: 15px;
+	color: #fff;
+	border: 0 none;
+	border-radius: 3px;
+	background: #F32C52;
+}
+
+.mails ul{
+	//background: white;
+	width: 80%;
+	margin:0 0 0 50px;
+	list-style-type: none;
+}
+.mails ul li {
+	text-align: center;
+	margin: 5px 0;
+	font-size: 17px;
+}
+.mails_rm i{
+	margin:0;
 }
