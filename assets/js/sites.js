@@ -52,7 +52,7 @@ chrome.topSites.get(function(MostVisitedURL)
 
 		 var binaProtocol = ProtocolHato(bookmark[i].url);
 		// var favicon = "https://www.google.com/s2/favicons?domain=" +  binaProtocol;
-		// console.log(bookmark[i].url)
+		// console.log(bookmark[i])
         
         var favicon =  "chrome://favicon/" + bookmark[i].url; 	
     document.getElementById('bookmarks').innerHTML += `<li>  <a href="${bookmark[i].url}"> <img src="${favicon}">${bookmark[i].title}</a></li>`;
@@ -64,14 +64,21 @@ chrome.topSites.get(function(MostVisitedURL)
     var lt = bookmark.length - 1;
     
     for (var i = lt; i > 0; i--) {
-        
 		var binaProtocol = ProtocolHato(bookmark[i].url);
 		//var favicon = "https://www.google.com/s2/favicons?domain=" +  binaProtocol;
         var favicon =  "chrome://favicon/" + bookmark[i].url;    
  
- 		 	document.getElementById('bookmarks2').innerHTML += `  <a href="${bookmark[i].url}"><li> <div class="favi"><img src="${favicon}"></div><div class="title">${bookmark[i].title}<div></li> </a>`;
+ 		 	document.getElementById('bookmarks2').innerHTML += `  <a href="${bookmark[i].url}"><li><div class="favi"><img src="${favicon}"></div><div class="title">${bookmark[i].title}<div></li> </a><button id="remove_bmk" class=${bookmark[i].id}>X</button> `;
 
  	}
  });
 
+// doesnt work as of now
+document.getElementById('remove_bmk').addEventListener('click', rmv_bmk);
+function rmv_bmk() {
+    var id = this.getAttribute('class');
+    chrome.bookmarks.remove(id, function () {
+       console.log('removed') 
+    });
+}
 
