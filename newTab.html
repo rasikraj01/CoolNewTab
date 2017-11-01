@@ -29,14 +29,16 @@
 		<div class="mails">
 			<div class="wrapper">
 			<br>
-			<div id="mail"></div>
-				<form action='#0' id="add_mail_form">
+			<form action='#0' id="add_mail_form">
 					<input type="text" id="url" placeholder="url" />
 					<input type="text" id="name" placeholder="name" required/>
 					<!-- <label >Add Email</label> -->
 					<button id="add_mail" type="submit">Add</button>
 				</form>
 				<div id="mail_settings"><i class="fa fa-cog" aria-hidden="true"></i>Mail Settings</div>
+
+			<div id="mail"></div>
+				
 			</div>
 		</div>
 
@@ -58,7 +60,7 @@
 			<div class="wrapper">
 				<h2>TODO</h2>
 				<div id="todos"></div>
-				<form action='#0'>
+				<form action='#0' class="input_form">
 					<input type="text" id="task" required/>
 					<label >Add to the list</label>
 					<button id="add" type="submit">Add</button>
