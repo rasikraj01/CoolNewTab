@@ -393,7 +393,6 @@ input[type="text"]:focus{
 
 .mails ul li .mails_rm{
 	float:right;
-	display: none;
 	padding: 4px;
 	cursor: pointer;
 	font-size: 15px;
@@ -447,3 +446,9 @@ input[type="text"]:focus{
 	
 }
 */
+
+.settings{
+	position: absolute;
+	bottom:20px;
+	right: 20px;
+}

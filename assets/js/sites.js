@@ -73,12 +73,12 @@ chrome.topSites.get(function(MostVisitedURL)
  	}
  });
 
-// doesnt work as of now
-document.getElementById('remove_bmk').addEventListener('click', rmv_bmk);
-function rmv_bmk() {
-    var id = this.getAttribute('class');
-    chrome.bookmarks.remove(id, function () {
-       console.log('removed') 
-    });
-}
+// // doesnt work as of now
+// document.getElementById('remove_bmk').addEventListener('click', rmv_bmk);
+// function rmv_bmk() {
+//     var id = this.getAttribute('class');
+//     chrome.bookmarks.remove(id, function () {
+//        console.log('removed') 
+//     });
+// }
 
