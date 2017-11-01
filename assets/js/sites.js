@@ -68,7 +68,7 @@ chrome.topSites.get(function(MostVisitedURL)
 		//var favicon = "https://www.google.com/s2/favicons?domain=" +  binaProtocol;
         var favicon =  "chrome://favicon/" + bookmark[i].url;    
  
- 		 	document.getElementById('bookmarks2').innerHTML += `  <a href="${bookmark[i].url}"><li><div class="favi"><img src="${favicon}"></div><div class="title">${bookmark[i].title}<div></li> </a><button id="remove_bmk" class=${bookmark[i].id}>X</button> `;
+ 		 	document.getElementById('bookmarks2').innerHTML += `  <a href="${bookmark[i].url}"><li><div class="favi"><img src="${favicon}"></div><div class="title">${bookmark[i].title}<div></li> </a> `;//<button id="remove_bmk" class=${bookmark[i].id}>X</button>
 
  	}
  });

@@ -44,7 +44,7 @@ function mails_show() {
 	var ul;
 	ul = `<ul id="mail_list">`
 	for (var i = 1; i < mails.length; i++) {
-		ul += `<li><a href="${mails[i][0]}">${mails[i][1]}</a><button class="mails_rm" id="${i}"><i class="fa fa-trash-o" aria-hidden="true"></i></button></li>`
+		ul += `<li><i class="fa fa-envelope" aria-hidden="true" style=" left:0;"></i><a href="${mails[i][0]}">${mails[i][1]}</a><button class="mails_rm" id="${i}"><i class="fa fa-trash-o" aria-hidden="true"></i></button></li>`
 	}
 	ul += `</ul>`
 	document.getElementById('mail').innerHTML = ul;
@@ -60,15 +60,19 @@ document.getElementById('add_mail').addEventListener('click',mails_add);
 mails_show();
 
 document.getElementById('add_mail_form').style.display = "none";
-//document.getElementsByClassName('mails_rm').style.display = "none";
+$('.mails_rm').css('display','none');
 
 function show_add_button() {
 	var settings = document.getElementById('add_mail_form').style.display ;
 	if (settings === "none") {
 		document.getElementById('add_mail_form').style.display = 'block';	
+		$('.mails_rm').css('display','block');
+
 	}
 	else if(settings === "block"){
 		document.getElementById('add_mail_form').style.display = 'none';
+		$('.mails_rm').css('display','none');
+
 	}
 	
 	//document.getElementsByClassName('mails_rm').className += 'disspp';

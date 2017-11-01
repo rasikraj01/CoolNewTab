@@ -17,13 +17,15 @@ body{
 	background: url(https://static.pexels.com/photos/164022/pexels-photo-164022.jpeg);
 	background: url(https://static.pexels.com/photos/80277/pexels-photo-80277.png);
 	background-size: 100% 100%;
-	*/
 	background: url(https://static.pexels.com/photos/164022/pexels-photo-164022.jpeg);
 	background: url(https://static.pexels.com/photos/164646/pexels-photo-164646.jpeg);
-	
+	background: #013243;
+	*/
 	color: #fff;
-//background: linear-gradient(to top, #0f0c29, #302b63, #24243e); 
-	-webkit-font-smoothing: antialiased;
+    background: -webkit-linear-gradient(bottom, #011b54, #012258, #00255c);
+    background: -o-linear-gradient(bottom, #011b54, #012258, #00255c);
+    background: linear-gradient(to top, #011b54, #012258, #00255c); 
+    -webkit-font-smoothing: antialiased;
 }
 a{
 	text-decoration: none;
@@ -84,7 +86,7 @@ button{
 	color: #ffffff;
     text-align: center;
 	font-family: 'Share Tech Mono', monospace;
-	text-shadow: 0 0 15px rgba(38,208,129, 1),  0 0 15px rgba(10, 175, 230, 0);
+	text-shadow: 0 0 15px #3498db,  0 0 15px rgba(10, 175, 230, 0);
     margin-top: 50px;
     //rgba(10, 175, 230, 1) 
 }
@@ -157,9 +159,10 @@ button{
 }
 #news li{
 	//color: #000;
-    background: rgba(206, 206, 206, 0.36);
+    background: rgba(206, 206, 206, 0.2);
     margin: 5px;
     border-radius: 2px;
+   // border: 1px solid rgba(38,208,129, .8);
     padding: 8px;
 }
 #news a {
@@ -192,7 +195,7 @@ button{
 	padding: 4px;
 	cursor: pointer;
 	font-size: 13px;
-	border-radius: 50%;
+	border-radius: 3px;
 	color: #fff;
 	border: 0 none;
 	transition: all .2s;
@@ -203,10 +206,12 @@ button{
 }
 .todo .remove:hover{
 	background: #2ecc71;
+	//transform: scale(1.1);
 }
 
 .todo .remove:hover i{
 	color: #fff;
+	transform: scale(1.2);
 }
 .remove i{
 	//color: none;
@@ -326,12 +331,12 @@ input[type="text"]:focus{
 	overflow-y: hidden;
 	height: 30px;
 	position: relative;
-	background: rgba(206, 206, 206, 0.3);
+	background: rgba(206, 206, 206, 0.2);
 	//background: rgba(38,208,129, 0.2);
-	-webkit-transition:all .5s;
+	-webkit-transition:all .2s;
 }
 #topsites a:hover{
-	background: rgba(206, 206, 206, 0.5);
+	background: rgba(206, 206, 206, 0.4);
 	//background: rgba(38,208,129, 0.5);
 	-webkit-transform:scale(1.01);
 }
@@ -377,9 +382,10 @@ input[type="text"]:focus{
 	margin-right: 5px;
 }
 .mails a{
-	font-size: 13px;
+	font-size: 15px;
 	text-decoration: none;
 	padding: 10px 0;
+	margin-right: 30px;
 }
 #mail_settings:hover{
 	cursor: pointer;
@@ -387,6 +393,7 @@ input[type="text"]:focus{
 
 .mails ul li .mails_rm{
 	float:right;
+	display: none;
 	padding: 4px;
 	cursor: pointer;
 	font-size: 15px;
@@ -403,12 +410,14 @@ input[type="text"]:focus{
 	list-style-type: none;
 }
 .mails ul li {
-	text-align: center;
-	margin: 5px 0;
+	text-align: right;
+	margin: 5px ;
+	font-size: 15px;
 	font-size: 17px;
 }
 .mails_rm i{
 	margin:0;
+	float: right;
 }
 #add_mail{
 	display: none;

@@ -14,8 +14,10 @@
 		</div>
 		
 		<div class="otherbookmarks">
+			<div class="oths_bookmks_wrpr">
 			<h2>OTHER BOOKMARKS</h2>
-			<ul id="bookmarks2"></ul>	
+			<ul id="bookmarks2"></ul>
+			</div>	
 		</div>
 
 		<div class="clock">
@@ -29,13 +31,14 @@
 		<div class="mails">
 			<div class="wrapper">
 			<br>
+			<div id="mail_settings"><i class="fa fa-pencil" aria-hidden="true"></i>Mails</div>
 			<form action='#0' id="add_mail_form">
-					<input type="text" id="url" placeholder="url" />
+					<input type="text" id="url" placeholder="paste the link of inbox here" />
 					<input type="text" id="name" placeholder="name" required/>
 					<!-- <label >Add Email</label> -->
 					<button id="add_mail" type="submit">Add</button>
 				</form>
-				<div id="mail_settings"><i class="fa fa-cog" aria-hidden="true"></i>Mail Settings</div>
+				
 
 			<div id="mail"></div>
 				
@@ -74,6 +77,7 @@
 	</div>
 	
 	</body>
+	<script src="assets/js/jquery-3.2.1.min.js"></script>
 	<script src="assets/js/axios.js"></script>
 	<script src="assets/js/todo.js"></script>
 	<script src="assets/js/news.js"></script>
