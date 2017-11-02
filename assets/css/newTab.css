@@ -97,12 +97,18 @@ button{
 	height: calc(100vh - 50px);
 	grid-column: 1;
 	grid-row: 2 / 5;
+	position: relative;
 }
 .otherbookmarks ul{
 	overflow-y: scroll;
 
 	border-top: 1px solid #fff; 
 	height: 100%;
+}
+.oths_bookmks_wrpr{
+
+	//position: absolute;
+	
 }
 .otherbookmarks ul li{
 	display: flex;
@@ -164,6 +170,7 @@ button{
     border-radius: 2px;
    // border: 1px solid rgba(38,208,129, .8);
     padding: 8px;
+    transition: all .4s;
 }
 #news a {
 	text-decoration:none;
@@ -176,7 +183,10 @@ button{
 	//color:#424949;
 	color: #e3e3e3;
  }
-
+#news li:hover{
+    background: rgba(206, 206, 206, 0.35);
+   // -webkit-transform:scale(1.1);
+}
 
 /************TODO**************/
 .todo{
@@ -268,7 +278,7 @@ input[type="text"]:invalid{
 	//color: red;
 }
 
-input[type="text"]:focus{
+.todo input[type="text"]:focus{
 	font-size: 20px;
 	//text-align: right;
 	border:none;
@@ -368,15 +378,19 @@ input[type="text"]:focus{
 .mails{
 	//background: #e3e3e3;
 	grid-column: 5;
+	//max-height: 300px;
 }
 .mails .wrapper{
-    margin-top: 30px;
-    margin-right: 20px;
-	width: 90%;
+    margin: auto;
+    margin-top: 20px;
+    //margin-right: 20px;
+	width: 80%;
+	position: relative;
 	text-align: right; 
 }
 .mails h2{
-	text-align: 
+	text-align: center;
+	margin-bottom: 10px;
 }
 .mails i{
 	margin-right: 5px;
@@ -385,12 +399,16 @@ input[type="text"]:focus{
 	font-size: 15px;
 	text-decoration: none;
 	padding: 10px 0;
-	margin-right: 30px;
+//	margin-right: 30px;
 }
 #mail_settings:hover{
 	cursor: pointer;
 }
-
+.mails h2{
+	text-align: center;
+	//width: 80%;
+	font-weight: 100;
+}
 .mails ul li .mails_rm{
 	float:right;
 	padding: 4px;
@@ -405,14 +423,21 @@ input[type="text"]:focus{
 .mails ul{
 	//background: white;
 	width: 80%;
-	margin:0 0 0 50px;
+	//margin:0 0 0 50px;
+	margin: auto;
 	list-style-type: none;
 }
 .mails ul li {
-	text-align: right;
-	margin: 5px ;
-	font-size: 15px;
+	text-align: center;
+	//margin: 10px ;
+	padding: 7px;
 	font-size: 17px;
+	transition: all .2s ;
+}
+.mails ul li:hover{
+	transform: scale(1.1);
+	cursor: pointer;
+	background: rgba(206, 206, 206, 0.28);
 }
 .mails_rm i{
 	margin:0;
@@ -421,9 +446,9 @@ input[type="text"]:focus{
 #add_mail{
 	display: none;
 }
-#add_mail_form input {
+#add_mail_form input[type="text"] {
 	//width: 100%;
-	color: #9a9a9a;
+	color: white;
 	padding: 20px 5px;
 	border: none;
 	background: transparent;
@@ -435,9 +460,22 @@ input[type="text"]:focus{
 	transition: all .2s;
 
 }
-
-/*#add_mail_form input:focus{
-	font-size: 23px;
+#mail_settings{
+	position: absolute;
+	float: right;
+	right: 0;
+	top: 20px;
+	font-size: 15px;
+}
+#mail_settings i{
+	transition: all .2s;
+}
+#mail_settings i:hover{
+	color: #26d081;
+	transform: scale(1.2);
+}
+#add_mail_form input[type="text"]:focus{
+	//font-size: 23px;
 	border:none;
 	box-shadow: none;
 	outline: none;
@@ -445,7 +483,9 @@ input[type="text"]:focus{
 	border-bottom:2px solid #3dd28d; 
 	
 }
-*/
+#add_mail_form input::placeholder{
+	color: #e3e3e3;	
+}
 
 .settings{
 	position: absolute;

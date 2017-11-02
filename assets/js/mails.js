@@ -44,7 +44,8 @@ function mails_show() {
 	var ul;
 	ul = `<ul id="mail_list">`
 	for (var i = 1; i < mails.length; i++) {
-		ul += `<li><i class="fa fa-envelope" aria-hidden="true" style=" left:0;"></i><a href="${mails[i][0]}">${mails[i][1]}</a><button class="mails_rm" id="${i}"><i class="fa fa-trash-o" aria-hidden="true"></i></button></li>`
+		ul += `<li></i><a href="${mails[i][0]}">${mails[i][1]}</a>
+		<button class="mails_rm" id="${i}"><i class="fa fa-trash-o" aria-hidden="true"></i></button></li>`
 	}
 	ul += `</ul>`
 	document.getElementById('mail').innerHTML = ul;
