@@ -179,7 +179,7 @@ button{
 	width: 80%;
 	list-style: none;
 	overflow-y: scroll;
-	height: calc(100% - 60px);
+	height: calc(100% - 50px);
 	margin: auto;
     margin-top: 50px;
 }
@@ -368,7 +368,7 @@ input[type="text"]:invalid{
 #topsites a:hover{
 	background: rgba(206, 206, 206, 0.4);
 	//background: rgba(38,208,129, 0.5);
-	-webkit-transform:scale(1.01);
+	-webkit-transform:scale(1.05);
 }
 #topsites li{
 	width: 400px;
