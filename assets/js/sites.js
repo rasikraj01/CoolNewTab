@@ -73,6 +73,13 @@ chrome.topSites.get(function(MostVisitedURL)
  	}
  });
 
+
+$('.key').click(function () {
+    
+       $('.oths_bookmks_wrpr').toggleClass('on');
+       $('.key').toggleClass('move');
+});
+
 // // doesnt work as of now
 // document.getElementById('remove_bmk').addEventListener('click', rmv_bmk);
 // function rmv_bmk() {

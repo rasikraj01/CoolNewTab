@@ -101,13 +101,33 @@ button{
 }
 .otherbookmarks ul{
 	overflow-y: scroll;
-
 	border-top: 1px solid #fff; 
 	height: 100%;
 }
 .oths_bookmks_wrpr{
-
-	//position: absolute;
+	//background: rgba(206, 206, 206, 0.2);
+	transition: all .2s;
+	transform: translateX(-300px);
+}
+.on{
+	transform: translateX(0px);
+}
+.key{
+	position: absolute;
+	top: 50%;
+	padding: 10px;
+	background: rgba(206, 206, 206, 0.2);
+	border-radius: 4px;
+	//left: 2%;
+	font-size: 40px;
+	font-weight: 200;
+	transition: all .2s;
+}
+.key:hover{
+	cursor: pointer;
+}
+.move{
+	transform: translateX(300px) rotate(180deg);	
 	
 }
 .otherbookmarks ul li{
