@@ -20,12 +20,18 @@ body{
 	background: url(https://static.pexels.com/photos/164022/pexels-photo-164022.jpeg);
 	background: url(https://static.pexels.com/photos/164646/pexels-photo-164646.jpeg);
 	background: #013243;
+//	background: url(https://static.pexels.com/photos/634043/pexels-photo-634043.jpeg);
+//	background: url(https://static.pexels.com/photos/218983/pexels-photo-218983.jpeg);
+
 	*/
 	color: #fff;
     background: -webkit-linear-gradient(bottom, #011b54, #012258, #00255c);
     background: -o-linear-gradient(bottom, #011b54, #012258, #00255c);
     background: linear-gradient(to top, #011b54, #012258, #00255c); 
     -webkit-font-smoothing: antialiased;
+    background: url(https://static.pexels.com/photos/628764/pexels-photo-628764.jpeg);
+	background-size: 100% 100%;
+   
 }
 a{
 	text-decoration: none;
