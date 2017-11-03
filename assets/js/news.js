@@ -123,7 +123,9 @@
 
 
 // FOR NOW
-var url = `https://newsapi.org/v1/articles?source=the-times-of-india&sortBy=top&apiKey=da63afd1f6814247aeb5a840097824e4`;
+//var url = `https://newsapi.org/v1/articles?source=the-times-of-india&sortBy=top&apiKey=da63afd1f6814247aeb5a840097824e4`;
+
+var url = `https://newsapi.org/v1/articles?source=the-next-web&sortBy=latest&apiKey=da63afd1f6814247aeb5a840097824e4`;
 
 axios.get(url)
   .then(function (res) {

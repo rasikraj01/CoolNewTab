@@ -9,8 +9,8 @@
 
 body{
 	overflow:hidden;
-	background-color:#222; 
 	/*background: url(https://static.pexels.com/photos/216354/pexels-photo-216354.jpeg);
+	background-color:#222; 
 	background: url(https://static.pexels.com/photos/218983/pexels-photo-218983.jpeg);
 	background: url(https://static.pexels.com/photos/217123/pexels-photo-217123.jpeg);
 	background: url(https://static.pexels.com/photos/164646/pexels-photo-164646.jpeg);
@@ -22,13 +22,13 @@ body{
 	background: #013243;
 //	background: url(https://static.pexels.com/photos/634043/pexels-photo-634043.jpeg);
 //	background: url(https://static.pexels.com/photos/218983/pexels-photo-218983.jpeg);
-
+background: -webkit-linear-gradient(bottom, #011b54, #012258, #00255c);
+    background: -o-linear-gradient(bottom, #011b54, #012258, #00255c);
+    
 	*/
 	color: #fff;
-    background: -webkit-linear-gradient(bottom, #011b54, #012258, #00255c);
-    background: -o-linear-gradient(bottom, #011b54, #012258, #00255c);
-    background: linear-gradient(to top, #011b54, #012258, #00255c); 
     -webkit-font-smoothing: antialiased;
+    background: linear-gradient(to top, #011b54, #012258, #00255c); 
     background: url(https://static.pexels.com/photos/628764/pexels-photo-628764.jpeg);
 	background-size: 100% 100%;
    
@@ -131,6 +131,7 @@ button{
 }
 .key:hover{
 	cursor: pointer;
+	transform: scale(1.1);
 }
 .move{
 	transform: translateX(300px) rotate(180deg);	
