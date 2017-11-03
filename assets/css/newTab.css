@@ -20,19 +20,20 @@ body{
 	background: url(https://static.pexels.com/photos/164022/pexels-photo-164022.jpeg);
 	background: url(https://static.pexels.com/photos/164646/pexels-photo-164646.jpeg);
 	background: #013243;
-//	background: url(https://static.pexels.com/photos/634043/pexels-photo-634043.jpeg);
-//	background: url(https://static.pexels.com/photos/218983/pexels-photo-218983.jpeg);
+	background: url(https://static.pexels.com/photos/634043/pexels-photo-634043.jpeg);
+	background: url(https://static.pexels.com/photos/218983/pexels-photo-218983.jpeg);
 background: -webkit-linear-gradient(bottom, #011b54, #012258, #00255c);
     background: -o-linear-gradient(bottom, #011b54, #012258, #00255c);
+	background-image: url(https://static.pexels.com/photos/585754/pexels-photo-585754.jpeg);
     
 	*/
 	color: #fff;
     -webkit-font-smoothing: antialiased;
     background: linear-gradient(to top, #011b54, #012258, #00255c); 
-    background: url(https://static.pexels.com/photos/628764/pexels-photo-628764.jpeg);
-	background-size: 100% 100%;
-   
-}
+   //option background: url(https://static.pexels.com/photos/404280/pexels-photo-404280.jpeg);
+   background-image: url(../img/11.png);
+	background-size: 100%;
+   }
 a{
 	text-decoration: none;
 	color: #fff;
