@@ -8,10 +8,13 @@ A modern UI with customization options.It has integrated a news feed with option
 
 ![Image unavailable](https://github.com/rasikraj01/CoolNewTab/blob/master/assets/img/Screen%20Shot%202017-11-03%20at%209.23.54%20PM-min.png?raw=true)
 
+### Features
 
-### Todo List:
+* News Feed
+* <a href="https://github.com/rasikraj01/CoolNewTab/blob/master/assets/img/ezgif-4-f655af0dff.gif">Todo List</a>
+* Quick Access to E-mail Accounts
+* Quick Access to Other Bookmarks
+* Neat Layout
 
-![ToDo Working](https://github.com/rasikraj01/CoolNewTab/blob/master/assets/img/ezgif-4-f655af0dff.gif)
-
-
-More features coming soon.....
+#### Upcoming Features:
+* Custom Backgrounds
