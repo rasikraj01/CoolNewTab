@@ -5,7 +5,13 @@ A chrome extension which makes new Tabs a better experience and increases produc
 
 A modern UI with customization options.It has integrated a news feed with options to select your own news source.
 
-### Add Todos:
 
-![ToDo Working](https://imgur.com/c3edxXA)
+![Image unavailable](https://github.com/rasikraj01/CoolNewTab/blob/master/assets/img/Screen%20Shot%202017-11-03%20at%209.23.54%20PM-min.png?raw=true)
+
+
+### Todo List:
+
+![ToDo Working](https://github.com/rasikraj01/CoolNewTab/blob/master/assets/img/ezgif-4-f655af0dff.gif)
+
+
 More features coming soon.....
