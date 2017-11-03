@@ -18,3 +18,6 @@ A modern UI with customization options.It has integrated a news feed with option
 
 #### Upcoming Features:
 * Custom Backgrounds
+
+
+P.S. : Production version coming soon.
