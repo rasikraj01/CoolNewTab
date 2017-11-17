@@ -125,11 +125,13 @@
 // FOR NOW
 //var url = `https://newsapi.org/v1/articles?source=the-times-of-india&sortBy=top&apiKey=da63afd1f6814247aeb5a840097824e4`;
 
+var src = 'the-next-web';
 var url = `https://newsapi.org/v1/articles?source=the-next-web&sortBy=latest&apiKey=da63afd1f6814247aeb5a840097824e4`;
 
 axios.get(url)
   .then(function (res) {
     console.log('test')
+    console.log(res.data.articles)
     for (var i = 0; i < res.data.articles.length; i++) {
     document.getElementById('news').innerHTML += `
       <a href="${res.data.articles[i].url}">
