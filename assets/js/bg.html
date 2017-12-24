@@ -39,8 +39,14 @@
       console.log(html);
       var html = html +  `<li id=${url[i]}><img src="${url[i]}" alt=""/></img></li>`;
    }
+   var url_bg = '1.jpg';
    $("ul").html(html);
-   $(body).css
+   $('li').click(function () {
+      var url_bg = this.id;
+      $('body').css('background', `url(${url_bg})`);
+      console.log(this.id);
+   });
+   console.log("shj" + url_bg);
    </script>
 
 </html>
