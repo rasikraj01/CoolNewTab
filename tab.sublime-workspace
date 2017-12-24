@@ -4,12 +4,104 @@
 		"selected_items":
 		[
 			[
-				"trans",
-				"transition"
+				"bg",
+				"bgi\tbackground-image: url(${0});"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"tra",
+				"target\tAttr"
+			],
+			[
+				"tran",
+				"transform"
+			],
+			[
+				"tras",
+				"transform"
+			],
+			[
+				"fsi",
+				"font-size"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"news",
+				"news_list"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"bord",
+				"border"
 			],
 			[
 				"border",
-				"border-bottom"
+				"border-radius"
+			],
+			[
+				"bgs",
+				"bgsz-a\tbackground-size: auto;"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"b",
+				"bookmark"
+			],
+			[
+				"max",
+				"max-height"
+			],
+			[
+				"over",
+				"overflow-y"
+			],
+			[
+				"mails",
+				"mails_rm"
+			],
+			[
+				"if",
+				"ife\tif … else"
+			],
+			[
+				"clas",
+				"classList"
+			],
+			[
+				"mail",
+				"mails"
+			],
+			[
+				"add",
+				"addEventListener"
+			],
+			[
+				"re",
+				"remove"
+			],
+			[
+				"strin",
+				"stringify"
+			],
+			[
+				"fo",
+				"for\tfor (…) {…} (Improved Native For-Loop)"
+			],
+			[
+				"trans",
+				"transition"
 			],
 			[
 				"wdi",
@@ -32,10 +124,6 @@
 				"rgba()"
 			],
 			[
-				"over",
-				"overflow-x"
-			],
-			[
 				"mra",
 				"margin-bottom"
 			],
@@ -52,20 +140,8 @@
 				"type\tAttr"
 			],
 			[
-				"tra",
-				"translateX()"
-			],
-			[
-				"get",
-				"getElementById"
-			],
-			[
 				"n",
 				"transparent"
-			],
-			[
-				"b",
-				"background"
 			],
 			[
 				"border-c",
@@ -105,10 +181,6 @@
 			],
 			[
 				"mragi",
-				"margin-top"
-			],
-			[
-				"mar",
 				"margin-top"
 			],
 			[
@@ -266,10 +338,6 @@
 			[
 				"Driv",
 				"DriverSchema"
-			],
-			[
-				"re",
-				"return"
 			]
 		]
 	},
@@ -279,7 +347,16 @@
 			"file": "newTab.html",
 			"settings":
 			{
-				"buffer_size": 1496,
+				"buffer_size": 2079,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/js/news.js",
+			"settings":
+			{
+				"buffer_size": 4750,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -288,7 +365,7 @@
 			"file": "assets/css/newTab.css",
 			"settings":
 			{
-				"buffer_size": 5100,
+				"buffer_size": 9431,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -343,21 +420,24 @@
 	"expanded_folders":
 	[
 		"/Users/rasikraj/Desktop/CoolNewTab",
-		"/Users/rasikraj/Desktop/CoolNewTab/assets",
-		"/Users/rasikraj/Desktop/CoolNewTab/assets/js"
+		"/Users/rasikraj/Desktop/CoolNewTab/assets"
 	],
 	"file_history":
 	[
-		"/Users/rasikraj/Desktop/CoolNewTab/assets/js/todo.js",
-		"/Users/rasikraj/Desktop/humko_tumse_pyaar_hai.txt",
-		"/Users/rasikraj/Desktop/CoolNewTab/assets/js/clock.js",
-		"/Users/rasikraj/Desktop/CoolNewTab/assets/js/sites.js",
+		"/Users/rasikraj/Desktop/CoolNewTab/popup.html",
+		"/Users/rasikraj/Desktop/CoolNewTab/README.md",
+		"/Users/rasikraj/Desktop/CoolNewTab/assets/js/mails.js",
 		"/Users/rasikraj/Desktop/CoolNewTab/assets/js/news.js",
+		"/Users/rasikraj/Desktop/CoolNewTab/assets/js/news_list.js",
+		"/Users/rasikraj/Desktop/CoolNewTab/assets/js/sites.js",
+		"/Users/rasikraj/Desktop/CoolNewTab/assets/js/todo.js",
+		"/Users/rasikraj/Desktop/CoolNewTab/assets/js/clock.js",
+		"/Users/rasikraj/Desktop/CoolNewTab/tab.sublime-project",
+		"/Users/rasikraj/Desktop/humko_tumse_pyaar_hai.txt",
 		"/Users/rasikraj/Desktop/emoji.css",
 		"/Users/rasikraj/Desktop/CoolNewTab/manifest.json",
 		"/Users/rasikraj/Desktop/CoolNewTab/css/newTab.css",
 		"/Users/rasikraj/Desktop/CoolNewTab/newTab.html",
-		"/Users/rasikraj/Desktop/CoolNewTab/README.md",
 		"/Users/rasikraj/Desktop/CoolNewTab/assets/js/axios.js",
 		"/Users/rasikraj/Desktop/extension/manifest.json",
 		"/Users/rasikraj/Desktop/extension/sites.js",
@@ -476,6 +556,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"background",
+			"<i class=\"fa fa-angle-double-right\" aria-hidden=\"true\"></i>",
+			"non",
+			"').",
+			"remove_bmk",
 			"');\n",
 			";\n",
 			"a href=\"${res.data.articles[i].url}\">",
@@ -498,7 +583,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -507,19 +592,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1496,
+						"buffer_size": 2079,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								596,
-								596
-							],
-							[
-								794,
-								794
+								1600,
+								1600
 							]
 						],
 						"settings":
@@ -528,7 +609,37 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1045.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "assets/js/news.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4750,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4140,
+								4114
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 601.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -541,28 +652,29 @@
 			"sheets":
 			[
 				{
-					"buffer": 1,
+					"buffer": 2,
 					"file": "assets/css/newTab.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5100,
+						"buffer_size": 9431,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4967,
-								4967
+								3287,
+								3287
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Djaneiro/Syntaxes/CSS (Django).tmLanguage"
+							"syntax": "Packages/Djaneiro/Syntaxes/CSS (Django).tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 4959.0,
+						"translation.y": 1870.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -599,7 +711,7 @@
 		"cols":
 		[
 			0.0,
-			0.4597736822,
+			0.619410690412,
 			1.0
 		],
 		"rows":
@@ -609,6 +721,10 @@
 		]
 	},
 	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 132.0
+	},
 	"output.find_results":
 	{
 		"height": 0.0
@@ -626,6 +742,10 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"",
+				"README.md"
+			]
 		],
 		"width": 0.0
 	},
