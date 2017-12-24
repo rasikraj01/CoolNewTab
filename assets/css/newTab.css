@@ -9,28 +9,14 @@
 
 body{
 	overflow:hidden;
-	/*background: url(https://static.pexels.com/photos/216354/pexels-photo-216354.jpeg);
-	background-color:#222;
-	background: url(https://static.pexels.com/photos/218983/pexels-photo-218983.jpeg);
-	background: url(https://static.pexels.com/photos/217123/pexels-photo-217123.jpeg);
-	background: url(https://static.pexels.com/photos/164646/pexels-photo-164646.jpeg);
-	background: url(https://static.pexels.com/photos/164022/pexels-photo-164022.jpeg);
-	background: url(https://static.pexels.com/photos/80277/pexels-photo-80277.png);
-	background-size: 100% 100%;
-	background: url(https://static.pexels.com/photos/164022/pexels-photo-164022.jpeg);
-	background: url(https://static.pexels.com/photos/164646/pexels-photo-164646.jpeg);
-	background: #013243;
-	background: url(https://static.pexels.com/photos/634043/pexels-photo-634043.jpeg);
-	background: url(https://static.pexels.com/photos/218983/pexels-photo-218983.jpeg);
-background: -webkit-linear-gradient(bottom, #011b54, #012258, #00255c);
-    background: -o-linear-gradient(bottom, #011b54, #012258, #00255c);
-	background-image: url(https://static.pexels.com/photos/585754/pexels-photo-585754.jpeg);
 
-	*/
 	color: #fff;
     -webkit-font-smoothing: antialiased;
-    background: linear-gradient(to top, #011b54, #012258, #00255c);
+    /*background: linear-gradient(to top, #011b54, #012258, #00255c);
    //option background: url(https://static.pexels.com/photos/404280/pexels-photo-404280.jpeg);
+   background-image: url(../img/11.png);
+	background-size: 100%;*/
+
    background-image: url(../img/11.png);
 	background-size: 100%;
    }
@@ -590,4 +576,20 @@ cursor:pointer;
 @keyframes modalopen{
 from{ opacity: 0}
 to {opacity: 1}
+}
+
+.content ul li img{
+	height:200px;
+	width:300px;
+}
+.content ul{
+	text-decoration: none;
+	list-style-type: none;
+}
+.content ul li{
+	display: inline;
+	margin: 5px;
+}
+.content ul li:hover{
+	cursor: pointer;
 }

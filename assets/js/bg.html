@@ -5,21 +5,7 @@
       <title></title>
    </head>
    <style media="screen">
-      ul li img{
-         height:200px;
-         width:300px;
-      }
-      ul{
-         text-decoration: none;
-         list-style-type: none;
-      }
-      ul li{
-         display: inline;
-         margin: 5px;
-      }
-      ul li:hover{
-         cursor: pointer;
-      }
+
    </style>
    <script
   src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
@@ -27,32 +13,8 @@
   crossorigin="anonymous"></script>
 
    <body>
-<ul class="bg"></ul>
    </body>
    <script type="text/javascript">
-
-   // assign variables
-   var url = ['1.jpg', '2.jpg','3.jpg','4.jpg'];
-   var html = [];
-   for (var i = 0; i < url.length; i++) {
-      console.log(html);
-      var html = html +  `<li id=${url[i]}><img src="${url[i]}" alt=""/></img></li>`;
-   }
-
-   //storage
-
-   var url_bg = localStorage.getItem('sha');
-   $('body').css('background', `url(${url_bg})`);
-
-   // bg options and bg change
-   $("ul").html(html);
-   $('li').click(function () {
-      $('body').css('background', `url(${url_bg})`);
-      localStorage.setItem("sha", this.id);
-      console.log(localStorage.getItem("sha"));
-      var url_bg = localStorage.getItem('sha');
-      $('body').css('background', `url(${url_bg})`);
-   });
    </script>
 
 </html>
