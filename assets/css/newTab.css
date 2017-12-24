@@ -14,10 +14,8 @@ body{
     -webkit-font-smoothing: antialiased;
     /*background: linear-gradient(to top, #011b54, #012258, #00255c);
    //option background: url(https://static.pexels.com/photos/404280/pexels-photo-404280.jpeg);
-   background-image: url(../img/11.png);
-	background-size: 100%;*/
+   background-image: url(../img/11.png);*/
 
-   background-image: url(../img/11.png);
 	background-size: 100%;
    }
 a{
@@ -578,18 +576,18 @@ from{ opacity: 0}
 to {opacity: 1}
 }
 
-.content ul li img{
+.content ol li img{
 	height:200px;
 	width:300px;
 }
-.content ul{
+.content ol{
 	text-decoration: none;
 	list-style-type: none;
 }
-.content ul li{
+.content ol li{
 	display: inline;
 	margin: 5px;
 }
-.content ul li:hover{
+.content ol li:hover{
 	cursor: pointer;
 }
