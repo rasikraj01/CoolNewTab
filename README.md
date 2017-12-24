@@ -12,12 +12,13 @@ A modern UI with customization options.It has integrated a news feed with option
 
 * News Feed
 * <a href="https://github.com/rasikraj01/CoolNewTab/blob/master/assets/img/ezgif-4-f655af0dff.gif">Todo List</a>
+* High resolutions to choose from for  Backgrounds
 * Quick Access to E-mail Accounts
 * Quick Access to Bookmarks
 * Neat Layout
 
 #### Upcoming Features:
-* Large collections of high resolutions to choose from for  Backgrounds
+
 * Downloads Tab
 
 P.S. : Production version coming soon.
