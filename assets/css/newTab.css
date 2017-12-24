@@ -10,7 +10,7 @@
 body{
 	overflow:hidden;
 	/*background: url(https://static.pexels.com/photos/216354/pexels-photo-216354.jpeg);
-	background-color:#222; 
+	background-color:#222;
 	background: url(https://static.pexels.com/photos/218983/pexels-photo-218983.jpeg);
 	background: url(https://static.pexels.com/photos/217123/pexels-photo-217123.jpeg);
 	background: url(https://static.pexels.com/photos/164646/pexels-photo-164646.jpeg);
@@ -25,11 +25,11 @@ body{
 background: -webkit-linear-gradient(bottom, #011b54, #012258, #00255c);
     background: -o-linear-gradient(bottom, #011b54, #012258, #00255c);
 	background-image: url(https://static.pexels.com/photos/585754/pexels-photo-585754.jpeg);
-    
+
 	*/
 	color: #fff;
     -webkit-font-smoothing: antialiased;
-    background: linear-gradient(to top, #011b54, #012258, #00255c); 
+    background: linear-gradient(to top, #011b54, #012258, #00255c);
    //option background: url(https://static.pexels.com/photos/404280/pexels-photo-404280.jpeg);
    background-image: url(../img/11.png);
 	background-size: 100%;
@@ -95,7 +95,7 @@ button{
 	font-family: 'Share Tech Mono', monospace;
 	text-shadow: 0 0 15px #3498db,  0 0 15px rgba(10, 175, 230, 0);
     margin-top: 50px;
-    //rgba(10, 175, 230, 1) 
+    //rgba(10, 175, 230, 1)
 }
 /************OTHER BOOKMARKS**************/
 
@@ -108,7 +108,7 @@ button{
 }
 .otherbookmarks ul{
 	overflow-y: scroll;
-	border-top: 1px solid #fff; 
+	border-top: 1px solid #fff;
 	height: 100%;
 }
 .oths_bookmks_wrpr{
@@ -136,8 +136,8 @@ button{
 	//transform: scale(1.1);
 }
 .move{
-	transform: translateX(300px) rotate(180deg);	
-	
+	transform: translateX(300px) rotate(180deg);
+
 }
 .otherbookmarks ul li{
 	display: flex;
@@ -145,7 +145,7 @@ button{
 	overflow: hidden;
 	//background: white;
 	height: 25px;
-	margin: 1px 0;    
+	margin: 1px 0;
 
 	-webkit-transition:all .3s;
 }
@@ -217,13 +217,13 @@ button{
    // -webkit-transform:scale(1.1);
 }
 
-/************TODO**************/
+/************TODOs**************/
 .todo{
 	//background: grey;
 	grid-column: 5;
 	height: 60%;
   	grid-row: 4;
-	
+
 }
 .todo h2{
 	margin-bottom: 20px;
@@ -283,7 +283,7 @@ button{
 	width: 80%;
 	margin:auto;
 	//margin-top: 80%;
-	text-align: center; 
+	text-align: center;
 	bottom: 0;
 }
 .todo .wrapper form{
@@ -297,8 +297,8 @@ button{
 	border: none;
 	background: transparent;
 	height: 30px;
-	border-bottom:2px solid  #26d081; //#3dd28d 
-	
+	border-bottom:2px solid  #26d081; //#3dd28d
+
 	outline: 0;
 	box-shadow:none;
 	transition: all .2s;
@@ -314,8 +314,8 @@ input[type="text"]:invalid{
 	box-shadow: none;
 	outline: none;
 	color:#fff;
-	border-bottom:2px solid #3dd28d; 
-	
+	border-bottom:2px solid #3dd28d;
+
 }
 .todo .wrong{
 	-webkit-animation:shake .2s;
@@ -366,7 +366,7 @@ input[type="text"]:invalid{
 	list-style-type: none;
 }
 #topsites a{
-	margin:5px; 
+	margin:5px;
 	overflow-y: hidden;
 	height: 30px;
 	position: relative;
@@ -415,7 +415,7 @@ input[type="text"]:invalid{
     //margin-right: 20px;
 	width: 80%;
 	position: relative;
-	text-align: right; 
+	text-align: right;
 }
 .mails h2{
 	text-align: center;
@@ -482,8 +482,8 @@ input[type="text"]:invalid{
 	border: none;
 	background: transparent;
 	height: 20px;
-	border-bottom:1px solid  #26d081; //#3dd28d 
-	
+	border-bottom:1px solid  #26d081; //#3dd28d
+
 	outline: 0;
 	box-shadow:none;
 	transition: all .2s;
@@ -509,15 +509,85 @@ input[type="text"]:invalid{
 	box-shadow: none;
 	outline: none;
 	color:#fff;
-	border-bottom:2px solid #3dd28d; 
-	
+	border-bottom:2px solid #3dd28d;
+
 }
 #add_mail_form input::placeholder{
-	color: #e3e3e3;	
+	color: #e3e3e3;
 }
+/************Settings**************/
 
 .settings{
 	position: absolute;
 	bottom:20px;
 	right: 20px;
+	color:white;
+	background: none;
+	outline: none;
+	border: none;
+	transition: all .2s;
+}
+.settings:hover{
+	cursor:pointer;
+	transform: rotate(45deg);
+}
+
+.modal{
+display:none;
+position: fixed;
+z-index:1;
+left: 0;
+top:0;
+height: 100%;
+width:100%;
+overflow: auto;
+background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content{
+background-color:#f4f4f4;
+margin: 20% auto;
+width:70%;
+box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17);
+animation-name:modalopen;
+animation-duration:1s;
+}
+
+.modal-header h2, .modal-footer h3{
+margin:0;
+}
+
+.modal-header{
+background:coral;
+padding:15px;
+color:#fff;
+}
+
+.modal-body{
+padding:10px 20px;
+}
+
+.modal-footer{
+background:coral;
+padding:10px;
+color:#fff;
+text-align: center;
+}
+
+.closeBtn{
+color:#ccc;
+float: right;
+font-size:30px;
+color:#fff;
+}
+
+.closeBtn:hover,.closeBtn:focus{
+color:#000;
+text-decoration: none;
+cursor:pointer;
+}
+
+@keyframes modalopen{
+from{ opacity: 0}
+to {opacity: 1}
 }

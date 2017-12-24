@@ -6,13 +6,13 @@
 </head>
 	<body>
 
-		
+
 		<div class="container">
 
 		<div class="mainbookmarks">
-			<ul id="bookmarks"></ul>	
+			<ul id="bookmarks"></ul>
 		</div>
-		
+
 		<div class="otherbookmarks">
 
 			<div class="key"><i class="fa fa-angle-double-right" aria-hidden="true"></i>
@@ -20,16 +20,16 @@
 			<div class="oths_bookmks_wrpr">
 			<h2>OTHER BOOKMARKS</h2>
 			<ul id="bookmarks2"></ul>
-			</div>	
+			</div>
 		</div>
 
 		<div class="clock">
-		
+
 		<center>
 			<div id="clock"></div>
-		</center>	
-		
-		</div> 
+		</center>
+
+		</div>
 
 		<div class="mails">
 			<div class="wrapper">
@@ -43,23 +43,23 @@
 					<!-- <label >Add Email</label> -->
 					<button id="add_mail" type="submit">Add</button>
 				</form>
-				
+
 			</center>
 
 			<div id="mail"></div>
-				
+
 			</div>
 
 		</div>
 
 
-		
+
 		<div class="topsites" >
 			<ul id="topsites">
-				
+
 			</ul>
 		</div>
-		
+
 
 		<div class="news">
 			<ul id="news"></ul>
@@ -74,26 +74,49 @@
 					<input type="text" id="task" required/>
 					<label >Add to the list</label>
 					<button id="add" type="submit">Add</button>
-				</form>	
+				</form>
 			</div>
-			
+
 		</div>
 
 	</div>
-	
-<!-- 
+
+
+	<button id="modalBtn" class="button settings"><i class="fa fa-cog fa-2x" aria-hidden="true"></i></button>
+
+<div id="simpleModal" class="modal">
+ <div class="modal-content">
+	<div class="modal-header">
+		 <span class="closeBtn">&times;</span>
+		 <h2>Modal Header</h2>
+	</div>
+	<div class="modal-body">
+	  <p>Hello...I am a modal</p>
+	  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla repellendus nisi, sunt consectetur ipsa velit repudiandae aperiam modi quisquam nihil nam asperiores doloremque mollitia dolor deleniti quibusdam nemo commodi ab.</p>
+	</div>
+	<div class="modal-footer">
+	  <h3>Modal Footer</h3>
+	</div>
+ </div>
+</div>
+
+<!--
 	<div class="settings">
-		<form id="news_source">
+
+	 <form id="news_source">
     <select id="news_list">
-      
+
     </select>
 </form>
 	</div>
- -->
- 	</body>
+	<div class="modal">
 
+	</div> -->
+
+ 	</body>
 	<script src="assets/js/jquery-3.2.1.min.js"></script>
 	<script src="assets/js/axios.js"></script>
+	<script src="assets/js/modal.js"></script>
 	<script src="assets/js/todo.js"></script>
 	<script src="assets/js/news.js"></script>
     <script src="assets/js/sites.js"></script>
