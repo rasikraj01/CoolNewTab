@@ -500,7 +500,6 @@ input[type="text"]:invalid{
 	color: #e3e3e3;
 }
 /************Settings**************/
-
 .settings{
 	position: absolute;
 	bottom:20px;
@@ -511,74 +510,83 @@ input[type="text"]:invalid{
 	border: none;
 	transition: all .2s;
 }
+
 .settings:hover{
 	cursor:pointer;
 	transform: rotate(45deg);
 }
 
 .modal{
-display:none;
-position: fixed;
-z-index:1;
-left: 0;
-top:0;
-height: 100%;
-width:100%;
-overflow: auto;
-background-color: rgba(0,0,0,0.5);
+	display:block;
+	position: fixed;
+	z-index:1;
+	left: 0;
+	top:0;
+	height: 100%;
+	width:100%;
+	overflow: auto;
+	background-color: rgba(0,0,0,0.5);
 }
 
 .modal-content{
-background-color:#f4f4f4;
-margin: 20% auto;
-width:70%;
-box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17);
-animation-name:modalopen;
-animation-duration:1s;
+	background-color:#f4f4f4;
+	margin: 10% auto;
+	width:70%;
+	box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17);
+	animation-name:modalopen;
+	animation-duration:1s;
 }
 
 .modal-header h2, .modal-footer h3{
-margin:0;
+	margin:0;
 }
 
 .modal-header{
-background:coral;
-padding:15px;
-color:#fff;
+	background:#004480;
+	padding:15px;
+	color:#fff;
 }
 
 .modal-body{
-padding:10px 20px;
+	padding:10px 20px;
 }
 
+/*
 .modal-footer{
-background:coral;
-padding:10px;
-color:#fff;
-text-align: center;
-}
+	background:coral;
+	padding:10px;
+	color:#fff;
+	text-align: center;
+}*/
 
 .closeBtn{
-color:#ccc;
-float: right;
-font-size:30px;
-color:#fff;
+	color:#fff;
+	float: right;
+	font-size:30px;
+   line-height: 25px;
 }
 
 .closeBtn:hover,.closeBtn:focus{
-color:#000;
-text-decoration: none;
-cursor:pointer;
+	cursor:pointer;
+	color:#ccc;
 }
 
 @keyframes modalopen{
-from{ opacity: 0}
-to {opacity: 1}
+	from{ opacity: 0}
+	to {opacity: 1}
 }
-
+.content h1{
+    color: #2b2b2b;
+    font-weight: 500;
+    font-size: 20px;
+    margin-left: 5px;
+	 margin-bottom: 20px;
+	 margin-top: 10px;
+}
 .content ol li img{
-	height:200px;
-	width:300px;
+	height:150px;
+	width:200px;
+	margin-bottom: 10px;
 }
 .content ol{
 	text-decoration: none;
