@@ -9,13 +9,8 @@
 
 body{
 	overflow:hidden;
-
 	color: #fff;
     -webkit-font-smoothing: antialiased;
-    /*background: linear-gradient(to top, #011b54, #012258, #00255c);
-   //option background: url(https://static.pexels.com/photos/404280/pexels-photo-404280.jpeg);
-   background-image: url(../img/11.png);*/
-
 	background-size: 100%;
    }
 a{
@@ -513,11 +508,11 @@ input[type="text"]:invalid{
 
 .settings:hover{
 	cursor:pointer;
-	transform: rotate(45deg);
+	transform: rotate(30deg);
 }
 
 .modal{
-	display:block;
+	display:none;
 	position: fixed;
 	z-index:1;
 	left: 0;
@@ -551,13 +546,6 @@ input[type="text"]:invalid{
 	padding:10px 20px;
 }
 
-/*
-.modal-footer{
-	background:coral;
-	padding:10px;
-	color:#fff;
-	text-align: center;
-}*/
 
 .closeBtn{
 	color:#fff;
