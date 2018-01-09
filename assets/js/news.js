@@ -5,7 +5,7 @@
 //   var news_source ;
 //   var news_source_str = localStorage.getItem('newz');
 //   if (news_source_str !== null) {
-//         news_source = JSON.parse(news_source_str); 
+//         news_source = JSON.parse(news_source_str);
 //     }
 //     return news_source;
 // }
@@ -17,7 +17,7 @@
 //     ['BBC Sport','bbc-sport'],
 //     ['Bild','blid'],
 //     ['Bloomberg','bloomberg'],
-//     ['Breitbart News','breitbart-news'],    
+//     ['Breitbart News','breitbart-news'],
 //     ['Business Insider','business-insider'],
 //     ['Business Insider (UK)','business-insider-uk'],
 //     ['Buzzfeed','buzzfeed'],
@@ -130,8 +130,8 @@ var url = `https://newsapi.org/v1/articles?source=the-next-web&sortBy=latest&api
 
 axios.get(url)
   .then(function (res) {
-    console.log('test')
-    console.log(res.data.articles)
+    console.log('test');
+    console.log(res.data.articles);
     for (var i = 0; i < res.data.articles.length; i++) {
     document.getElementById('news').innerHTML += `
       <a href="${res.data.articles[i].url}">
@@ -141,6 +141,8 @@ axios.get(url)
     //console.log(res.data.articles);
   })
   .catch(function (err) {
+    document.getElementById('news').innerHTML =`
+    <div class="error"><i class="fa fa-frown-o fa-5x" aria-hidden="true"></i><br>
+    <h2>You Are Offline.</h2></div>`;
     console.log(err);
   });
-

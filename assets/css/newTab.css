@@ -195,7 +195,18 @@ button{
     background: rgba(206, 206, 206, 0.35);
    // -webkit-transform:scale(1.1);
 }
-
+#news .error{
+	text-align: center;
+}
+#news .error i{
+	font-weight: 300px;
+	margin-top: 30px;
+}
+#news .error h2{
+	margin-top:30px;
+	font-weight: 200;
+	font-size: 30px;
+}
 /************TODOs**************/
 .todo{
 	//background: grey;
