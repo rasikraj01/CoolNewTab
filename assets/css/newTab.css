@@ -631,3 +631,6 @@ input[type="text"]:invalid{
     margin: 20px 2px;
     background: #161616;
 }
+.content button:hover {
+	cursor: pointer;
+}
