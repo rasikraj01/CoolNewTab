@@ -20,5 +20,7 @@ A modern UI with customization options.It has integrated a news feed with option
 #### Upcoming Features:
 
 * Downloads Tab
+* Multiple News Sources to Choose From
+
 
 P.S. : Production version coming soon.

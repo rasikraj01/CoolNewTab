@@ -14,7 +14,7 @@
     "storage",
     "tabs",
     "http://*/*",
-        "chrome://favicon/",
+    "chrome://favicon/",
     "https://*/*",
     "geolocation",
     "unlimitedStorage",
