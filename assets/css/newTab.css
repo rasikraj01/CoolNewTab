@@ -93,7 +93,7 @@ button{
 .oths_bookmks_wrpr{
 	//background: rgba(206, 206, 206, 0.2);
 	transition: all .2s;
-	transform: translateX(-300px);
+	transform: translateX(-20vw);
 }
 .on{
 	transform: translateX(0px);
@@ -115,7 +115,7 @@ button{
 	//transform: scale(1.1);
 }
 .move{
-	transform: translateX(300px) rotate(180deg);
+	transform: translateX(20vw) rotate(180deg);
 
 }
 .otherbookmarks ul li{
